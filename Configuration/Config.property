@@ -1,0 +1,10 @@
+ChromeDriver = D:\\chromedriver.exe
+IEDriver = D:\\IEDriverServer.exe
+URL = https://stage.aws.dotw.com/_myadmin/login
+URL1= https://stage.aws.dotw.com
+ExcelPath = D:\\Test Repository\\TestData-Latest.xlsx
+ScreenShot=D:/Test Repository/Test Screenshots
+ReportPath=D:\\Test Repository\\Report\\Report.html
+ExcelPathRate = D:\\Test Repository\\TestData-Latest.xlsx
+ExcelPathTransfer = D:\\Test Repository\\TestData-Latest.xlsx
+ExcelPathTourVisa = D:\\Test Repository\\TestData-Latest.xlsx
