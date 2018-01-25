@@ -7,10 +7,18 @@
 				name="automationFramework.Accommodation_booking_3rdparty" />
 		</classes>
 	</test>
- <!-- <test name="Test2">
-	 <parameter name="browsername" value="CH"/>
+ <!-- test name="Test2">
+	<parameter name="browsername" value="CH"/>
 		<classes>
-			<class name="automationFramework.Accommodation_book" />
+			<class
+				name="automationFramework.Accommodation_bookingHistory" />
 		</classes>
-	</test>-->
+	</test>
+	 <test name="Test3">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room" />
+		</classes>
+	</test-->
 </suite> 

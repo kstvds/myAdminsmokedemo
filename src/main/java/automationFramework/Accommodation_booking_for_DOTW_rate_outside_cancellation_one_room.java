@@ -38,6 +38,7 @@ public class Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room {
 	Takescreenshot obj= new Takescreenshot();
 	ExtentReports rep = ExtentManager.getInstance();
 	ExtentTest test;
+	String errorpath;
 	LoginPage login = new LoginPage();
 	HomePage home = new HomePage();
 	NewAccoBooking acco = new NewAccoBooking();
@@ -82,12 +83,14 @@ public class Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room {
 				logger.info("Login Successful");
 		} catch (Exception e) {
 			logger.info(e.getMessage());
-			test.log(LogStatus.FAIL, e.getMessage());
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/Log-In.jpg";
 			rep.endTest(test);
 			rep.flush();
+			test.log(LogStatus.FAIL, e.getMessage());
 			Assert.assertTrue(false, e.getMessage());
-			test.log(LogStatus.FAIL, "Login");
-		}
+				}
 		logger.info("Searching Customer");
 		
 		     try {
@@ -106,12 +109,14 @@ public class Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room {
 				 test.log(LogStatus.PASS, "Navigated to customer search page");
 			} catch (Exception e) {
 				logger.info(e.getMessage());
-				test.log(LogStatus.FAIL, e.getMessage());
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/Customer.jpg");
+				test.log(LogStatus.FAIL, "Customer Search");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/Customer.jpg";
 				rep.endTest(test);
 				rep.flush();
+				test.log(LogStatus.FAIL, e.getMessage());
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Navigation to customer search page");
-			}
+					}
 		     logger.info("Selecting Customer");
 		     test.log(LogStatus.INFO, "Selecting Customer");
 			 try {
@@ -136,12 +141,14 @@ public class Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room {
 				
 			 }
 			 catch (Exception e) {
-					logger.info(e.getMessage());
-					test.log(LogStatus.FAIL, e.getMessage());
+				 logger.info(e.getMessage());
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/Customer Selection.jpg");
+					test.log(LogStatus.FAIL, "Customer Selection");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/Customer Selection.jpg";
 					rep.endTest(test);
 					rep.flush();
+					test.log(LogStatus.FAIL, e.getMessage());
 					Assert.assertTrue(false, e.getMessage());
-					test.log(LogStatus.FAIL, "Customer Selection");
 				}
 			 logger.info("Applying search Filters");
 			 try{
@@ -175,13 +182,15 @@ public class Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room {
 				 test.log(LogStatus.PASS, "PASSED HotelSearch");
 				 logger.info("Hotel Search Complete");
 			} catch (Exception e) {
-				logger.info(e.getMessage());
-				test.log(LogStatus.FAIL, e.getMessage());
-				rep.endTest(test);
-				rep.flush();
-				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Search");
-			}
+				 	logger.info(e.getMessage());
+					obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/HotelSearch.jpg");
+					test.log(LogStatus.FAIL, "HotelSearch");
+					errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/HotelSearch.jpg";
+					rep.endTest(test);
+					rep.flush();
+					test.log(LogStatus.FAIL, e.getMessage());
+					Assert.assertTrue(false, e.getMessage());
+				}
 			 
 			 logger.info("Selecting Room Type");
 	         try {
@@ -219,21 +228,26 @@ public class Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room {
 				 logger.info("Hotel Book Complete");
 			} catch (Exception e) {
 				logger.info(e.getMessage());
-				test.log(LogStatus.FAIL, e.getMessage());
+				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/Hotel Book.jpg");
+				test.log(LogStatus.FAIL, "Hotel Book");
+				errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room/Hotel Book.jpg";
 				rep.endTest(test);
 				rep.flush();
+				test.log(LogStatus.FAIL, e.getMessage());
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Hotel Book");
-
+		
 			}
   }
  
   @AfterMethod
 	public void getResult(ITestResult result) {
-		if (result.getStatus() == ITestResult.FAILURE) {
-			test.log(LogStatus.FAIL, result.getThrowable());
-		}
-		rep.endTest(test);
+	  if (result.getStatus() == ITestResult.FAILURE) {
+			 
+			
+			test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+			  test.log(LogStatus.FAIL, result.getThrowable());
+			  }
+			  rep.endTest(test);
 	}
 
 	@AfterTest

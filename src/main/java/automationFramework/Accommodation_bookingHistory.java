@@ -46,6 +46,7 @@ public class Accommodation_bookingHistory {
 	Takescreenshot obj = new Takescreenshot();
 	ExtentReports rep = ExtentManager.getInstance();
 	ExtentTest test;
+	String errorpath;
 	LoginPage login = new LoginPage();
 	HomePage home = new HomePage();
 	NewAccoBooking acco = new NewAccoBooking();
@@ -73,14 +74,14 @@ public class Accommodation_bookingHistory {
 		Actions action = new Actions(driverqa);
 		try {
 			logger.info("Browser Opened");
-			System.out.println("2");
+			
 			driverqa.get(Config.getApplicationUrl());
-			System.out.println("3");
+			
 
-			System.out.println("4");
+			
 			logger.info("Test Case Started");
 			test.log(LogStatus.INFO, "Starting Login");
-			System.out.println("5");
+			
 			WebElement username = driverqa.findElement(LoginPage.uname);
 			username.clear();
 			username.sendKeys(excel.getData(0, 1, 0));
@@ -97,11 +98,14 @@ public class Accommodation_bookingHistory {
 			logger.info("Login Successful");
 		} catch (Exception e) {
 			logger.info(e.getMessage());
-			test.log(LogStatus.FAIL, e.getMessage());
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Log-In.jpg");
+			test.log(LogStatus.FAIL, "Login");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Log-In.jpg";
 			rep.endTest(test);
 			rep.flush();
-			Assert.assertTrue(false, e.getMessage());
 			test.log(LogStatus.FAIL, "Login");
+			Assert.assertTrue(false, e.getMessage());
+			
 		}
 		logger.info("Searching Customer");
 
@@ -121,11 +125,13 @@ public class Accommodation_bookingHistory {
 			test.log(LogStatus.PASS, "Navigated to customer search page");
 		} catch (Exception e) {
 			logger.info(e.getMessage());
-			test.log(LogStatus.FAIL, e.getMessage());
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Customer Search.jpg");
+			test.log(LogStatus.FAIL, "Customer Search");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Customer Search.jpg";
 			rep.endTest(test);
 			rep.flush();
+			test.log(LogStatus.FAIL, e.getMessage());
 			Assert.assertTrue(false, e.getMessage());
-			test.log(LogStatus.FAIL, "Navigation to customer search page");
 		}
 		logger.info("Selecting Customer");
 		test.log(LogStatus.INFO, "Selecting Customer");
@@ -150,19 +156,23 @@ public class Accommodation_bookingHistory {
 			test.log(LogStatus.PASS, "Customer Selected");
 
 		} catch (Exception e) {
-			logger.info(e.getMessage());
+			
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Customer Selection.jpg");
+			test.log(LogStatus.FAIL, "Customer Selection");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Customer Selection.jpg";
+			
 			test.log(LogStatus.FAIL, e.getMessage());
+			logger.info(e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 			Assert.assertTrue(false, e.getMessage());
-			test.log(LogStatus.FAIL, "Customer Selection");
 		}
 		logger.info("Applying search Filters");
 		try {
 			test.log(LogStatus.INFO, "Starting HotelSearch");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
 			driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 12, 1));
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();
 			driverqa.findElement(NewAccoBooking.inDate).clear();
@@ -199,11 +209,13 @@ public class Accommodation_bookingHistory {
 			logger.info("Hotel Search Complete");
 		} catch (Exception e) {
 			logger.info(e.getMessage());
-			test.log(LogStatus.FAIL, e.getMessage());
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Hotel Search.jpg");
+			test.log(LogStatus.FAIL, "Hotel Search");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Hotel Search.jpg";
 			rep.endTest(test);
 			rep.flush();
+			test.log(LogStatus.FAIL, e.getMessage());
 			Assert.assertTrue(false, e.getMessage());
-			test.log(LogStatus.FAIL, "Hotel Search");
 		}
 
 		logger.info("Selecting Room Type");
@@ -273,21 +285,26 @@ public class Accommodation_bookingHistory {
 			logger.info("Hotel Book Complete and History");
 		} catch (Exception e) {
 			logger.info(e.getMessage());
-			test.log(LogStatus.FAIL, e.getMessage());
+			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Hotel Book.jpg");
+			test.log(LogStatus.FAIL, "Hotel Book");
+			errorpath=Config.SnapShotPath() + "/Book/Error/Accommodation_bookingHistory/Hotel Book.jpg";
 			rep.endTest(test);
 			rep.flush();
+			test.log(LogStatus.FAIL, e.getMessage());
 			Assert.assertTrue(false, e.getMessage());
-			test.log(LogStatus.FAIL, "Hotel Book");
 
 		}
 	}
 
 	@AfterMethod
 	public void getResult(ITestResult result) {
-		if (result.getStatus() == ITestResult.FAILURE) {
-			test.log(LogStatus.FAIL, result.getThrowable());
-		}
-		rep.endTest(test);
+		 if (result.getStatus() == ITestResult.FAILURE) {
+			 
+				
+				test.log(LogStatus.FAIL, test.addScreenCapture(errorpath));
+				  test.log(LogStatus.FAIL, result.getThrowable());
+				  }
+				  rep.endTest(test);
 	}
 
 	@AfterTest
