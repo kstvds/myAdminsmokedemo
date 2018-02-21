@@ -105,17 +105,17 @@ public class Search_reservation_by_producttype_tours {
 			Select ProductType= new Select(driverqa.findElement(Operations.ProductType));
 			ProductType.selectByIndex(3);
 			Thread.sleep(2000);
-			driverqa.findElement(Operations.RefNo).sendKeys(excel.getData(4, 1, 0));		
+			driverqa.findElement(Operations.RefNo).sendKeys(excel.getData(0, 32, 8));		
 			Thread.sleep(1000);			
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour/Search_Reservation_Tour/CRO-filter-search.jpg");
 			driverqa.findElement(Operations.SearchBtnCRO).click();;
 			Thread.sleep(2000);
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour/Search_Reservation_Tour/TourResult.jpg");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.Result));
-			String ExpectedResult=driverqa.findElement(Operations.Result).getText();
-			String ActualResult=excel.getData(4, 1, 0);
+			String ActualResult=driverqa.findElement(Operations.Result).getText();
+			String ExpectedResult=excel.getData(0, 32, 8);
 			Assert.assertTrue(ActualResult.contains(ExpectedResult));
-			Assert.assertTrue(true);
+			
 			test.log(LogStatus.INFO, "Ending Search_reservation_by_producttype_tours");
 			test.log(LogStatus.PASS, "PASSED Search_reservation_by_producttype_tours");
 			logger.info("Search_reservation_by_producttype_tours Complete");
@@ -123,6 +123,7 @@ public class Search_reservation_by_producttype_tours {
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false,e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}

@@ -15,11 +15,11 @@ public class MultiAccoDOTW {
     
   
     
-    public static final By DOTWroomOne = By.xpath("//*[@id='roomtype_92197_0_0_0']");
+    public static final By DOTWroomOne = By.xpath("//*[@id='roomtype_2130554_0_0_0']");
     
-    public static final By DOTWroomTwo = By.xpath("//*[@id='roomtype_92197_1_0_0']"); 
+    public static final By DOTWroomTwo = By.xpath("//*[@id='roomtype_2130554_1_0_0']"); 
     
-    public static final By DOTWTWOroomProcede = By.xpath("//*[@id='roomList_92197']/div[6]/div[3]/button");
+    public static final By DOTWTWOroomProcede = By.xpath("//*[@id='roomList_2130554']/div[6]/div[3]/button");
     
     public static final By paxtitle1 = By.xpath("//*[@id='passengerDetails']/div[1]/div/div[1]/select");
 

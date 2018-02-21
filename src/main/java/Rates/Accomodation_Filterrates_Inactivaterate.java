@@ -74,10 +74,10 @@ public class Accomodation_Filterrates_Inactivaterate {
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(2, 1, 0));
+				username.sendKeys(excel.getData(0, 1, 0));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(2, 1, 1));
+				password.sendKeys(excel.getData(0, 1, 1));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
@@ -96,8 +96,8 @@ public class Accomodation_Filterrates_Inactivaterate {
 		}
 	           try {
 				logger.info("Searching Accomodation"); 
-				   test.log(LogStatus.INFO, "Navigating to Accomodation search page");
-					logger.info("Navigating to Accomodation search page");
+				   test.log(LogStatus.INFO, "Navigating to Accomodation Rates page");
+					logger.info("Navigating to Accomodation Rates page");
 					 driverqa.findElement(RateFilter.prod).click();
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(RateFilter.accomodation));
 					 driverqa.findElement(RateFilter.accomodation).click();
@@ -107,15 +107,15 @@ public class Accomodation_Filterrates_Inactivaterate {
 					 String searchaccomatualtitle = driverqa.getTitle();
 					 String searchaccomexpectedtitle = "DOTWconnect.com::Filter Accommodation Units";
 					 Assert.assertEquals(searchaccomatualtitle, searchaccomexpectedtitle);
-					 logger.info("Navigated to Accomodation search page");
-					 test.log(LogStatus.PASS, "Navigated to Accomodation search page");
+					 logger.info("Navigated to Accomodation Rates page");
+					 test.log(LogStatus.PASS, "Navigated to Accomodation Rates page");
 			} catch (Exception e) {
 				logger.info(e.getMessage());
 				test.log(LogStatus.FAIL, e.getMessage());
 				rep.endTest(test);
 				rep.flush();
 				Assert.assertTrue(false, e.getMessage());
-				test.log(LogStatus.FAIL, "Navigating to Accomodation search page");
+				test.log(LogStatus.FAIL, "Navigating to Accomodation Rates page");
 				System.out.println(e.getMessage());
 			}
 	           try {
@@ -124,7 +124,7 @@ public class Accomodation_Filterrates_Inactivaterate {
 				     logger.info("Selecting Accomodation Unit");
 				     test.log(LogStatus.INFO, "Selecting Accomodation Unit");
 				     wait.until(ExpectedConditions.visibilityOfElementLocated(RateFilter.accomname));
-					 driverqa.findElement(RateFilter.accomname).sendKeys(excel.getData(2, 10, 0));
+					 driverqa.findElement(RateFilter.accomname).sendKeys(excel.getData(0, 27, 2));
 					 Thread.sleep(3000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
@@ -187,7 +187,7 @@ public class Accomodation_Filterrates_Inactivaterate {
 			if (result.getStatus() == ITestResult.FAILURE) {
 				test.log(LogStatus.FAIL, result.getThrowable());
 			}
-			//rep.endTest(test);
+			rep.endTest(test);
 		}
 
 		@AfterTest

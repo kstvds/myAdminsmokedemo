@@ -110,7 +110,7 @@ public static final By thirdPartyafterbookCheckInPrepayOutDead = By.xpath("//*[@
 	public static final By thirdPartyprocedetoBook = By.xpath("//button[contains(text(),'Proceed to booking')]");
 
 	public static final By directChannel = By.xpath("//*[@id='Suppliers[Direct &amp; Dynamic Channels]']/span/span[2]");
-
+	
 	public static final By directresultHotel = By.xpath("//*[@id='searchResults']/div[3]/h4");
 
 	public static final By directroomType = By.xpath("//*[@id='searchResults']/div[3]/div[3]/button");
@@ -155,7 +155,7 @@ public static final By thirdPartyafterbookCheckInPrepayOutDead = By.xpath("//*[@
 	public static final By transferType = By.name("transferType");
 	public static final By pickUpFrom = By.name("pickUp");
 	public static final By dropOffTo = By.name("dropOff");
-	public static final By transferRadioSelection = By.xpath("//input[@data-capacity='3']");
+	public static final By transferRadioSelection = By.xpath("//input[@data-capacity='3']"); 
 	public static final By transferRadioScheduled = By.xpath("//input[@data-capacity='0']");
 	public static final By transferFChildren = By.xpath("//*[@id='details_0']/div[2]/div[1]/div[2]/div/select");
 	public static final By transferFrstPaxTitle = By.name("title[0]");

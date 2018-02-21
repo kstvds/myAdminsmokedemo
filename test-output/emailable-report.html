@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test2</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">124.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test3</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">93.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">80.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">43.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test6</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">81.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test7</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">78.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test8</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">89.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test9</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">96.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test10</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">85.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test11</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">59.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test12</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">86.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">919.9 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test2 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.Accommodation_booking_3rdparty_multiroom</td><td><a href="#m1"><b>bookthirdpartymultiroom</b>  </a></td><td class="numi">1</td><td>1519117818810</td><td class="numi">123755</td></tr>
+<tr><th colspan="4">Test3 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.Accommodation_booking_3rdparty</td><td><a href="#m2"><b>bookthirdparty</b>  </a></td><td class="numi">1</td><td>1519117942927</td><td class="numi">93134</td></tr>
+<tr><th colspan="4">Test4 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">automationFramework.Accommodation_booking_cancel_reservation</td><td><a href="#m3"><b>cancel</b>  </a></td><td class="numi">1</td><td>1519118036178</td><td class="numi">79953</td></tr>
+<tr><th colspan="4">Test5 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">automationFramework.Accommodation_booking_Direct_multiroom</td><td><a href="#m4"><b>bookDIRECTmultiroom</b>  </a></td><td class="numi">1</td><td>1519118116329</td><td class="numi">43175</td></tr>
+<tr><th colspan="4">Test6 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.Accommodation_booking_dotwRates_multiroom</td><td><a href="#m5"><b>bookdotwmultiroom</b>  </a></td><td class="numi">1</td><td>1519118159559</td><td class="numi">81888</td></tr>
+<tr><th colspan="4">Test7 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.Accommodation_booking_for_adults_with_children</td><td><a href="#m6"><b>book</b>  </a></td><td class="numi">1</td><td>1519118241497</td><td class="numi">78821</td></tr>
+<tr><th colspan="4">Test8 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room</td><td><a href="#m7"><b>bookdirect</b>  </a></td><td class="numi">1</td><td>1519118320358</td><td class="numi">89704</td></tr>
+<tr><th colspan="4">Test9 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room</td><td><a href="#m8"><b>bookdotw</b>  </a></td><td class="numi">1</td><td>1519118410119</td><td class="numi">94391</td></tr>
+<tr><th colspan="4">Test10 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.Accommodation_bookingHistory</td><td><a href="#m9"><b>bookinghistory</b>  </a></td><td class="numi">1</td><td>1519118506723</td><td class="numi">83783</td></tr>
+<tr><th colspan="4">Test11 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.Accommodation_search_apply_filters_for_search_results</td><td><a href="#m10"><b>search</b>  </a></td><td class="numi">1</td><td>1519118592681</td><td class="numi">59080</td></tr>
+<tr><th colspan="4">Test12 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">automationFramework.Search_reservation_by_product_type_accommodation</td><td><a href="#m11"><b>searchaccombook</b>  </a></td><td class="numi">1</td><td>1519118651853</td><td class="numi">86810</td></tr>
+</table>
+<h1>Test2</h1>
+<h2 id="m1">automationFramework.Accommodation_booking_3rdparty_multiroom:bookthirdpartymultiroom</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test3</h1>
+<h2 id="m2">automationFramework.Accommodation_booking_3rdparty:bookthirdparty</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test4</h1>
+<h2 id="m3">automationFramework.Accommodation_booking_cancel_reservation:cancel</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id=&apos;mainContainer&apos;]/form/div[1]/div/table/tbody/tr/td[7]/a
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;PC329535&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir12952_28163}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bfb06b3d3dc40e35b81ac98a7e9d7809 expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at automationFramework.Accommodation_booking_cancel_reservation.cancel(Accommodation_booking_cancel_reservation.java:144)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test5</h1>
+<h2 id="m4">automationFramework.Accommodation_booking_Direct_multiroom:bookDIRECTmultiroom</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Sheet index (9) is out of range (0..0) expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at automationFramework.Accommodation_booking_Direct_multiroom.bookDIRECTmultiroom(Accommodation_booking_Direct_multiroom.java:157)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test6</h1>
+<h2 id="m5">automationFramework.Accommodation_booking_dotwRates_multiroom:bookdotwmultiroom</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test7</h1>
+<h2 id="m6">automationFramework.Accommodation_booking_for_adults_with_children:book</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test8</h1>
+<h2 id="m7">automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room:bookdirect</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test9</h1>
+<h2 id="m8">automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room:bookdotw</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test10</h1>
+<h2 id="m9">automationFramework.Accommodation_bookingHistory:bookinghistory</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test11</h1>
+<h2 id="m10">automationFramework.Accommodation_search_apply_filters_for_search_results:search</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test12</h1>
+<h2 id="m11">automationFramework.Search_reservation_by_product_type_accommodation:searchaccombook</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>CH</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

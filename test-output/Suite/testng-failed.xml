@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browsername" value="CH"/>
+  <test name="Test4(failed)" parallel="none">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="automationFramework.Accommodation_booking_3rdparty_multiroom">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_3rdparty_multiroom -->
+      <class name="automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -->
+      <class name="automationFramework.Accommodation_booking_dotwRates_multiroom">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_dotwRates_multiroom -->
+      <class name="automationFramework.Accommodation_booking_3rdparty">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_3rdparty -->
+      <class name="automationFramework.Accommodation_booking_for_adults_with_children">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_for_adults_with_children -->
+      <class name="automationFramework.Search_reservation_by_product_type_accommodation">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Search_reservation_by_product_type_accommodation -->
+      <class name="automationFramework.Accommodation_booking_cancel_reservation">
+        <methods>
+          <include name="cancel" invocation-numbers="0"/>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_cancel_reservation -->
+      <class name="automationFramework.Accommodation_search_apply_filters_for_search_results">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_search_apply_filters_for_search_results -->
+      <class name="automationFramework.Accommodation_bookingHistory">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_bookingHistory -->
+      <class name="automationFramework.Accommodation_booking_Direct_multiroom">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_Direct_multiroom -->
+      <class name="automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test name="Test5(failed)" parallel="none">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="automationFramework.Accommodation_booking_3rdparty_multiroom">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_3rdparty_multiroom -->
+      <class name="automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -->
+      <class name="automationFramework.Accommodation_booking_dotwRates_multiroom">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_dotwRates_multiroom -->
+      <class name="automationFramework.Accommodation_booking_3rdparty">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_3rdparty -->
+      <class name="automationFramework.Accommodation_booking_for_adults_with_children">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_for_adults_with_children -->
+      <class name="automationFramework.Search_reservation_by_product_type_accommodation">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Search_reservation_by_product_type_accommodation -->
+      <class name="automationFramework.Accommodation_booking_cancel_reservation">
+        <methods>
+          <include name="getResult"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_cancel_reservation -->
+      <class name="automationFramework.Accommodation_search_apply_filters_for_search_results">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_search_apply_filters_for_search_results -->
+      <class name="automationFramework.Accommodation_bookingHistory">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_bookingHistory -->
+      <class name="automationFramework.Accommodation_booking_Direct_multiroom">
+        <methods>
+          <include name="getResult"/>
+          <include name="bookDIRECTmultiroom" invocation-numbers="0"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_Direct_multiroom -->
+      <class name="automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room">
+        <methods>
+          <include name="afterTest"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -79,9 +79,10 @@ public class Tour_Booking {
 			test.log(LogStatus.INFO, "Ending LoginTest");
 			test.log(LogStatus.PASS, "PASSED LoginTest");
 			logger.info("Login Successful");
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}
@@ -111,28 +112,28 @@ public class Tour_Booking {
 			Assert.assertEquals(searchcustatualtitle, searchcustexpectedtitle);
 			logger.info("Navigated to customer search page");
 			test.log(LogStatus.PASS, "Customer Search Page");
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}
 		logger.info("Searching Customer");
 
 		try {
-			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.city));
-			driverqa.findElement(Operations.city).sendKeys(excel.getData(0, 4, 0));
-			Thread.sleep(1000);
-			action.sendKeys(Keys.ARROW_DOWN).build().perform();
-			action.sendKeys(Keys.ENTER).build().perform();
-			Thread.sleep(2000);
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour/Tour_book/Customer-filter-search-hotel.jpg");
-			action.sendKeys(Keys.ENTER).build().perform();
-			Thread.sleep(2000);
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour/Tour_book/Customer-list-search-hotel.jpg");
-			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
-			logger.info("Selecting Customer");
-			driverqa.findElement(Operations.chooseCust).click();
+			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
+			 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
+			 Thread.sleep(3000);
+			 action.sendKeys(Keys.ARROW_DOWN).build().perform();
+			 action.sendKeys(Keys.ENTER).build().perform();
+			 Thread.sleep(2000);
+			 action.sendKeys(Keys.ENTER).build().perform();
+			 Thread.sleep(2000);
+			 
+			 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour/Tour_booking_for_adults_with_children/Customer-list-book-hotel.jpg");
+			 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
+			 driverqa.findElement(Operations.chooseCust).click();
 			Thread.sleep(1000);
 			String searchpageactualtitle = driverqa.getTitle();
 			String searchpageexpectedtitle = "DOTWconnect.com::";
@@ -140,9 +141,10 @@ public class Tour_Booking {
 			logger.info("Customer Selected");
 			test.log(LogStatus.PASS, "Customer Selected");
 
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}
@@ -151,13 +153,13 @@ public class Tour_Booking {
 
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewTourBooking.destCity));
-			driverqa.findElement(NewTourBooking.TourName).sendKeys(excel.getData(2, 1, 0));
+			driverqa.findElement(NewTourBooking.TourName).sendKeys(excel.getData(0, 51, 1));
 			Thread.sleep(2000);
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			driverqa.findElement(NewTourBooking.TourDate).clear();
-			driverqa.findElement(NewTourBooking.TourDate).sendKeys(excel.getData(2, 4, 0));
+			driverqa.findElement(NewTourBooking.TourDate).sendKeys(excel.getData(0, 51, 2));
 			Thread.sleep(2000);
 			obj.Takesnap(driverqa,Config.SnapShotPath() + "/Tour/Tour_book/Filter_Tour.jpg");
 			driverqa.findElement(NewTourBooking.SearchButton).click();
@@ -176,16 +178,16 @@ public class Tour_Booking {
 			driverqa.findElement(NewTourBooking.ProceedBooking).click();
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewTourBooking.Title));
 			Select title= new Select(driverqa.findElement(NewTourBooking.Title));
-			title.selectByVisibleText(excel.getData(2, 7, 0));
-			driverqa.findElement(NewTourBooking.PAX_FirstName).sendKeys(excel.getData(2, 7, 2));
-			driverqa.findElement(NewTourBooking.PAX_LastName).sendKeys(excel.getData(2, 7, 4));
-			driverqa.findElement(NewTourBooking.Pickup).sendKeys(excel.getData(2, 7, 6));
+			title.selectByVisibleText("Sir");
+			driverqa.findElement(NewTourBooking.PAX_FirstName).sendKeys(excel.getData(0, 21, 1));
+			driverqa.findElement(NewTourBooking.PAX_LastName).sendKeys(excel.getData(0, 21, 2));
+			driverqa.findElement(NewTourBooking.Pickup).sendKeys(excel.getData(0, 32, 5));
 			driverqa.findElement(NewTourBooking.BookTour).click();
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewTourBooking.TourBookingStatus));
 			String BookingStatus = driverqa.findElement(NewTourBooking.TourBookingStatus).getText();
 			System.out.println(BookingStatus);
 			String TourID = driverqa.findElement(NewTourBooking.TourID).getText();
-			excel.putData(4, 1, 0, TourID);
+			excel.putData(0, 51, 3, TourID);
 			obj.Takesnap(driverqa,Config.SnapShotPath() + "/Tour/Tour_book/Booking Status.jpg");
 		//String ExpectedStatus=excel.getData(2, 10, 0);
 		//	Assert.assertTrue(BookingDetails.contains(ExpectedStatus));
@@ -193,9 +195,10 @@ public class Tour_Booking {
 			test.log(LogStatus.INFO, "Ending TourBook");
 			test.log(LogStatus.PASS, "PASSED TourBook");
 			logger.info("Tour Book Complete");
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}

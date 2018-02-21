@@ -3,7 +3,7 @@ package ObjectRepository;
 import org.openqa.selenium.By;
 
 public class RateFilter {
-	public static final By prod = By.xpath("//*[@id='MenuBar_0']/div[2]/ul[1]/li[5]/a");
+	public static final By prod = By.xpath("//*[@id='MenuBar_0']/div[2]/ul[1]/li[6]/a");
 	public static final By accomodation = By.xpath("//*[@id='MenuBar_144']/div[2]/ul[1]/li[1]/a");
 	public static final By rateninv = By.xpath("//*[@id='MenuBar_144']/div[2]/ul[1]/li[1]/ul/li[19]/a");
 	public static final By accomname = By.xpath("//*[@id='Name']");

@@ -124,7 +124,7 @@ public class Transfer_Booking_Transfertype_Private {
 				 try {
 					 test.log(LogStatus.PASS, "Selecting Customer");
 					wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-					 driverqa.findElement(Operations.company).sendKeys(excel.getData(1, 4, 0));
+					 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 					 Thread.sleep(1000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
@@ -132,8 +132,8 @@ public class Transfer_Booking_Transfertype_Private {
 					 action.sendKeys(Keys.ENTER).build().perform();
 					 Thread.sleep(2000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer/Transfer_booking_for_adults_with_children/Customer-list-transfer-book.jpg");
-					 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCustbook));
-					 driverqa.findElement(Operations.chooseCustbook).click();
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
+					 driverqa.findElement(Operations.chooseCust).click();
 					Thread.sleep(1000);
 					String searchpageactualtitle = driverqa.getTitle();
 					String searchpageexpectedtitle = "DOTWconnect.com::";
@@ -153,27 +153,26 @@ public class Transfer_Booking_Transfertype_Private {
 				 try{
 					 test.log(LogStatus.INFO, "Starting TransferSearch");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferName));
-					 driverqa.findElement(NewAccoBooking.transferName).sendKeys(excel.getData(1, 10, 0));
+					 driverqa.findElement(NewAccoBooking.transferName).sendKeys(excel.getData(0, 34, 1));
 					 Thread.sleep(2000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
 					 Select transferTime= new Select(driverqa.findElement(NewAccoBooking.transferTime));
 					 transferTime.selectByIndex(9);
 					 driverqa.findElement(NewAccoBooking.transferDate).clear();
-					 driverqa.findElement(NewAccoBooking.transferDate).sendKeys(excel.getData(1, 13, 0));
+					 driverqa.findElement(NewAccoBooking.transferDate).sendKeys(excel.getData(0, 34, 2));
 					 action.sendKeys(Keys.ENTER).build().perform();
-					 String expected=excel.getData(1, 10, 0);
+					 String expected=excel.getData(0, 34, 1);
 					 Select noofchild = new Select(driverqa.findElement(NewAccoBooking.transferBookingChild));
 					 noofchild.selectByIndex(1);
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferBookingChildAge));
-					 Select childage = new Select(driverqa.findElement(NewAccoBooking.transferBookingChildAge));
-					 childage.selectByIndex(5);
-					 Thread.sleep(2000);
-					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer/Transfer_booking_for_adults_with_children/Search-Hotel-filters-transfer-book.jpg");
+					 
+					 Thread.sleep(3000);
+					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer/Transfer_booking_for_adults_with_children/Search-filters-transfer-book.jpg");
 					 driverqa.findElement(NewAccoBooking.searchButton).click();
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.resultHotel));
 					 String result= driverqa.findElement(NewAccoBooking.resultHotel).getText();
-					 Thread.sleep(2000);
+					 Thread.sleep(3000);
 					 //obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer_booking_for_adults_with_children/Search-Result-transfer-book.jpg");
 					 Assert.assertTrue(result.contains(expected));
 					 test.log(LogStatus.INFO, "Ending TransferSearch");
@@ -205,28 +204,28 @@ public class Transfer_Booking_Transfertype_Private {
 					 Thread.sleep(2000);
 					 logger.info("Entering First Passenger details");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferFrstPaxFname));
-					 driverqa.findElement(NewAccoBooking.transferFrstPaxFname).sendKeys(excel.getData(1, 17, 0));
+					 driverqa.findElement(NewAccoBooking.transferFrstPaxFname).sendKeys(excel.getData(0, 21, 1));
 					 Thread.sleep(2000);
-					 driverqa.findElement(NewAccoBooking.transferFrstPaxLname).sendKeys(excel.getData(1, 17, 1));
+					 driverqa.findElement(NewAccoBooking.transferFrstPaxLname).sendKeys(excel.getData(0, 21, 2));
 					 Select firstPassengertitle = new Select(driverqa.findElement(NewAccoBooking.transferFrstPaxTitle));
 					 firstPassengertitle.selectByIndex(1);
 					 logger.info("Initiating Pick Up From Airport");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferPickUp));
-					 driverqa.findElement(NewAccoBooking.transferPickUp).sendKeys(excel.getData(2, 2, 0));
+					 driverqa.findElement(NewAccoBooking.transferPickUp).sendKeys(excel.getData(0, 32, 4));
 					 Thread.sleep(2000);
-					 driverqa.findElement(NewAccoBooking.transDropOff).sendKeys(excel.getData(2, 2, 1));
+					 driverqa.findElement(NewAccoBooking.transDropOff).sendKeys(excel.getData(0, 32, 5));
 					 Select airlineDetails = new Select(driverqa.findElement(NewAccoBooking.transferAirlineDetails));
 					 airlineDetails.selectByIndex(1);
-					 driverqa.findElement(NewAccoBooking.transferArrivingFrom).sendKeys(excel.getData(2, 2, 2));
-					 Thread.sleep(2000);
+					 driverqa.findElement(NewAccoBooking.transferArrivingFrom).sendKeys(excel.getData(0, 32, 6));
+					 Thread.sleep(3000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
-					 Thread.sleep(2000);
+					 Thread.sleep(3000);
 					JavascriptExecutor js = (JavascriptExecutor)driverqa;
 						//Scroll vertically downward by 250 pixels
 					 js.executeScript("window.scrollBy(0,250)", "");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferFlightNo));
-					 driverqa.findElement(NewAccoBooking.transferFlightNo).sendKeys(excel.getData(2, 2, 3));
+					 driverqa.findElement(NewAccoBooking.transferFlightNo).sendKeys(excel.getData(0, 32, 7));
 					 Select estimateArrivalHrs=new Select(driverqa.findElement(NewAccoBooking.transferArrivalHour));
 					 estimateArrivalHrs.selectByIndex(1);
 					 Select estimateArrivalSecs=new Select(driverqa.findElement(NewAccoBooking.transferArrivalMins));
@@ -241,8 +240,7 @@ public class Transfer_Booking_Transfertype_Private {
 					 test.log(LogStatus.INFO, "Ending TransferBook");
 					 test.log(LogStatus.PASS, "PASSED TransferBook");
 					 logger.info("Transfer Book Complete");
-					 rep.endTest(test);
-					 rep.flush();
+					
 				} catch (Exception e) {
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
@@ -261,13 +259,13 @@ public class Transfer_Booking_Transfertype_Private {
 			rep.endTest(test);
 		}
 
-		/*@AfterTest
+		@AfterTest
 		public void afterTest() {
 
 			rep.endTest(test);
 			rep.flush();
-			driverqa.close();
-		}*/
+			//driverqa.close();
+		}
 		
 		/*@AfterClass
 		public void killDriver() {

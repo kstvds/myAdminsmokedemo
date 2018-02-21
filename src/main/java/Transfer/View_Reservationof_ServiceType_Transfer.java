@@ -78,7 +78,7 @@ public class View_Reservationof_ServiceType_Transfer {
 			test.log(LogStatus.INFO, "Ending LoginTest");
 			test.log(LogStatus.PASS, "PASSED LoginTest");
 			logger.info("Login Successful");
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -110,7 +110,7 @@ public class View_Reservationof_ServiceType_Transfer {
 			Assert.assertEquals(searchcustatualtitle, searchcustexpectedtitle);
 			logger.info("Navigated to customer search page");
 			test.log(LogStatus.PASS, "Customer Search Page");
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -121,7 +121,7 @@ public class View_Reservationof_ServiceType_Transfer {
 		try {
 			test.log(LogStatus.PASS, "Selecting Customer");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-			driverqa.findElement(Operations.company).sendKeys(excel.getData(1, 4, 0));
+			driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 			Thread.sleep(1000);
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();
@@ -130,15 +130,15 @@ public class View_Reservationof_ServiceType_Transfer {
 			Thread.sleep(2000);
 			obj.Takesnap(driverqa, Config.SnapShotPath()
 					+ "/Transfer/Transfer_booking_for_adults_with_children/Customer-list-transfer-book.jpg");
-			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCustbook));
-			driverqa.findElement(Operations.chooseCustbook).click();
+			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
+			driverqa.findElement(Operations.chooseCust).click();
 			Thread.sleep(1000);
 			String searchpageactualtitle = driverqa.getTitle();
 			String searchpageexpectedtitle = "DOTWconnect.com::";
 			Assert.assertEquals(searchpageactualtitle, searchpageexpectedtitle);
 			logger.info("Customer Selected");
 			test.log(LogStatus.PASS, "Customer Selected");
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -151,35 +151,34 @@ public class View_Reservationof_ServiceType_Transfer {
 		try {
 			test.log(LogStatus.INFO, "Starting TransferSearch");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferName));
-			driverqa.findElement(NewAccoBooking.transferName).sendKeys(excel.getData(1, 10, 0));
+			driverqa.findElement(NewAccoBooking.transferName).sendKeys(excel.getData(0, 32, 1));
 			Thread.sleep(2000);
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();
 			Select transferTime = new Select(driverqa.findElement(NewAccoBooking.transferTime));
 			transferTime.selectByIndex(9);
 			driverqa.findElement(NewAccoBooking.transferDate).clear();
-			driverqa.findElement(NewAccoBooking.transferDate).sendKeys(excel.getData(1, 13, 0));
+			driverqa.findElement(NewAccoBooking.transferDate).sendKeys(excel.getData(0, 32, 2));
 			action.sendKeys(Keys.ENTER).build().perform();
-			String expected = excel.getData(1, 10, 0);
+			String expected = excel.getData(0, 32, 1);
 			Select noofchild = new Select(driverqa.findElement(NewAccoBooking.transferBookingChild));
 			noofchild.selectByIndex(1);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferBookingChildAge));
-			Select childage = new Select(driverqa.findElement(NewAccoBooking.transferBookingChildAge));
-			childage.selectByIndex(5);
+			
 			Thread.sleep(2000);
 			obj.Takesnap(driverqa, Config.SnapShotPath()
 					+ "/Transfer/Transfer_booking_for_adults_with_children/Search-Hotel-filters-transfer-book.jpg");
 			driverqa.findElement(NewAccoBooking.searchButton).click();
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.resultHotel));
 			String result = driverqa.findElement(NewAccoBooking.resultHotel).getText();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			Assert.assertTrue(result.contains(expected));
 			test.log(LogStatus.INFO, "Ending TransferSearch");
 			test.log(LogStatus.PASS, "PASSED TransferSearch");
 			logger.info("Transfer Search Complete");
 			rep.endTest(test);
 			rep.flush();
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -192,8 +191,8 @@ public class View_Reservationof_ServiceType_Transfer {
 			JavascriptExecutor jse = (JavascriptExecutor) driverqa;
 			// Scroll vertically downward by 250 pixels
 			jse.executeScript("window.scrollBy(0,250)", "");
-			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferRadioSelection));
-			driverqa.findElement(NewAccoBooking.transferRadioSelection).click();
+			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferRadioScheduled));
+			driverqa.findElement(NewAccoBooking.transferRadioScheduled).click();
 			logger.info("Transfer Type Selected");
 			test.log(LogStatus.INFO, "Start Booking");
 			obj.Takesnap(driverqa, Config.SnapShotPath()
@@ -204,28 +203,28 @@ public class View_Reservationof_ServiceType_Transfer {
 			Thread.sleep(2000);
 			logger.info("Entering First Passenger details");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferFrstPaxFname));
-			driverqa.findElement(NewAccoBooking.transferFrstPaxFname).sendKeys(excel.getData(1, 17, 0));
+			driverqa.findElement(NewAccoBooking.transferFrstPaxFname).sendKeys(excel.getData(0, 20, 1));
 			Thread.sleep(2000);
-			driverqa.findElement(NewAccoBooking.transferFrstPaxLname).sendKeys(excel.getData(1, 17, 1));
+			driverqa.findElement(NewAccoBooking.transferFrstPaxLname).sendKeys(excel.getData(0, 20, 2));
 			Select firstPassengertitle = new Select(driverqa.findElement(NewAccoBooking.transferFrstPaxTitle));
 			firstPassengertitle.selectByIndex(1);
 			logger.info("Initiating Pick Up From Airport");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferPickUp));
-			driverqa.findElement(NewAccoBooking.transferPickUp).sendKeys(excel.getData(2, 2, 0));
+			driverqa.findElement(NewAccoBooking.transferPickUp).sendKeys(excel.getData(0, 32, 4));
 			Thread.sleep(2000);
-			driverqa.findElement(NewAccoBooking.transDropOff).sendKeys(excel.getData(2, 2, 1));
+			driverqa.findElement(NewAccoBooking.transDropOff).sendKeys(excel.getData(0, 32, 5));
 			Select airlineDetails = new Select(driverqa.findElement(NewAccoBooking.transferAirlineDetails));
 			airlineDetails.selectByIndex(1);
-			driverqa.findElement(NewAccoBooking.transferArrivingFrom).sendKeys(excel.getData(2, 2, 2));
-			Thread.sleep(2000);
+			driverqa.findElement(NewAccoBooking.transferArrivingFrom).sendKeys(excel.getData(0, 32, 6));
+			Thread.sleep(3000);
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			JavascriptExecutor js = (JavascriptExecutor) driverqa;
 			// Scroll vertically downward by 250 pixels
 			js.executeScript("window.scrollBy(0,250)", "");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferFlightNo));
-			driverqa.findElement(NewAccoBooking.transferFlightNo).sendKeys(excel.getData(2, 2, 3));
+			driverqa.findElement(NewAccoBooking.transferFlightNo).sendKeys(excel.getData(0, 32, 7));
 			Select estimateArrivalHrs = new Select(driverqa.findElement(NewAccoBooking.transferArrivalHour));
 			estimateArrivalHrs.selectByIndex(1);
 			Select estimateArrivalSecs = new Select(driverqa.findElement(NewAccoBooking.transferArrivalMins));
@@ -248,9 +247,9 @@ public class View_Reservationof_ServiceType_Transfer {
 			WebElement element = driverqa.findElement(NewAccoBooking.TRNNum);
 			String TRNNumb = element.getText();
 			System.out.println(TRNNumb);
-			String expected = excel.putData(2, 2, 4, TRNNumb);
+			String expected = excel.putData(0, 32, 8, TRNNumb);
 			driverqa.findElement(Operations.centralReservOffc).click();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			Select productType = new Select(driverqa.findElement(NewAccoBooking.prodctType));
 			productType.selectByIndex(2);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.dOTWRef));
@@ -271,7 +270,7 @@ public class View_Reservationof_ServiceType_Transfer {
 			logger.info("Viewing reservation status of service type Transfer completed");
 			rep.endTest(test);
 			rep.flush();
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -281,7 +280,7 @@ public class View_Reservationof_ServiceType_Transfer {
 
 		try {
 
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -305,7 +304,7 @@ public class View_Reservationof_ServiceType_Transfer {
 
 		rep.endTest(test);
 		rep.flush();
-		driverqa.close();
+		//driverqa.close();
 	}
 
 }

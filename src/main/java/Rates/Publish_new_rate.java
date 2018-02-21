@@ -120,7 +120,7 @@ public class Publish_new_rate {
 				     logger.info("Selecting Accomodation Unit");
 				     test.log(LogStatus.INFO, "Selecting Accomodation Unit");
 				     wait.until(ExpectedConditions.visibilityOfElementLocated(RateFilter.accomname));
-					 driverqa.findElement(RateFilter.accomname).sendKeys(excel.getData(0, 4, 0));
+					 driverqa.findElement(RateFilter.accomname).sendKeys(excel.getData(0, 27, 2));
 					 Thread.sleep(5000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
@@ -177,7 +177,7 @@ public class Publish_new_rate {
 				   obj.Takesnap(driverqa, Config.SnapShotPath() + "/Rates/Publish_new_rate/Contract-selection-screen.jpg");
 				   driverqa.findElement(AddRate.ratenpolicy).click();
 				   wait.until(ExpectedConditions.visibilityOfElementLocated(AddRate.adultrate));
-				   driverqa.findElement(AddRate.adultrate).sendKeys(excel.getData(0, 7, 0));
+				   driverqa.findElement(AddRate.adultrate).sendKeys(excel.getData(0, 27, 0));
 				   Thread.sleep(3000);
 				   obj.Takesnap(driverqa, Config.SnapShotPath() + "/Rates/Publish_new_rate/Rate-Add-screen.jpg");
 				   Select policy = new Select(driverqa.findElement(AddRate.cancelpolicy));
@@ -216,7 +216,7 @@ public class Publish_new_rate {
 
 			rep.endTest(test);
 			rep.flush();
-			driverqa.close();
+			//driverqa.close();
 		}
 }
 

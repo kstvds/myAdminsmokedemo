@@ -66,10 +66,10 @@ public class General_details_about_rates_can_be_edited {
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(1, 1, 0));
+				username.sendKeys(excel.getData(0, 1, 0));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(1, 1, 1));
+				password.sendKeys(excel.getData(0, 1, 1));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
@@ -116,11 +116,11 @@ public class General_details_about_rates_can_be_edited {
 					     logger.info("Selecting Accomodation Unit");
 					     test.log(LogStatus.INFO, "Selecting Accomodation Unit");
 					     wait.until(ExpectedConditions.visibilityOfElementLocated(RateFilter.accomname));
-						 driverqa.findElement(RateFilter.accomname).sendKeys(excel.getData(1, 4, 0));
-						 Thread.sleep(5000);
+						 driverqa.findElement(RateFilter.accomname).sendKeys(excel.getData(0, 27, 2));
+						 Thread.sleep(4000);
 						 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 						 action.sendKeys(Keys.ENTER).build().perform();
-						 Thread.sleep(3000);
+						 Thread.sleep(2000);
 						 driverqa.findElement(RateFilter.filter).click();
 						 Thread.sleep(2000);
 						 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Rates/General_details_about_rates_can_be_edited/Rate-filter-screen.jpg");

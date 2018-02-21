@@ -9,9 +9,9 @@ public class EditRates {
 	
 	public static final By notesupdated = By.xpath("//*[@id='modalBody']");
 	public static final By editAllotment = By.xpath(".//*[@id='allotmentsSection_0']/div[1]/table[1]/tbody/tr[1]/td/span/a/span");
-	public static final By Allotment_count = By.xpath(".//*[@id='NbrOfRooms_5474305']");
+	public static final By Allotment_count = By.xpath("//*[@id='NbrOfRooms_5475055']");
 	//public static final By publish_changes = By.xpath(".//*[@id='EditRateForm']/div[2]/button");
-	public static final By close_pop = By.xpath("html/body/div[9]/div/div/div[1]/button");
+	public static final By close_pop = By.xpath("/html/body/div[9]/div/div/div[1]/button");
 	public static final By Allotment_updated = By.xpath(".//*[@id='allotmentsSection_0']/div[1]/table[1]/tbody/tr[2]/td/table/tbody/tr[1]/td[3]");
 	public static final By stay_length_add = By.xpath(".//*[@id='stayLengthSection_0']/table/thead/tr/th[2]/a/span");
 	public static final By stay_length_edit = By.xpath(".//*[@id='stayLengthSection_0']/table/thead/tr/th/span/a/span");

@@ -2,10 +2,12 @@ package Rates;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -69,10 +71,10 @@ public class Existing_allotment_can_be_edited {
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(3, 1, 0));
+				username.sendKeys(excel.getData(0, 1, 0));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(3, 1, 1));
+				password.sendKeys(excel.getData(0, 1, 1));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
@@ -119,8 +121,8 @@ public class Existing_allotment_can_be_edited {
 					     logger.info("Selecting Accomodation Unit");
 					     test.log(LogStatus.INFO, "Selecting Accomodation Unit");
 					     wait.until(ExpectedConditions.visibilityOfElementLocated(RateFilter.accomname));
-						 driverqa.findElement(RateFilter.accomname).sendKeys(excel.getData(3, 4, 0));
-						 Thread.sleep(5000);
+						 driverqa.findElement(RateFilter.accomname).sendKeys(excel.getData(0, 27, 2));
+						 Thread.sleep(4000);
 						 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 						 action.sendKeys(Keys.ENTER).build().perform();
 						 Thread.sleep(3000);
@@ -144,12 +146,12 @@ public class Existing_allotment_can_be_edited {
 				}
 	           try {
 					logger.info("Navigating to ContractList");
-					    test.log(LogStatus.INFO, "Navigating to ContractList");
+					  /*  test.log(LogStatus.INFO, "Navigating to ContractList");
 					   wait.until(ExpectedConditions.visibilityOfElementLocated(RateFilter.filterrates));
 					   driverqa.findElement(RateFilter.travelstartdate).clear();
 					   driverqa.findElement(RateFilter.travelstartdate).sendKeys(excel.getData(3, 7, 0));
 					   Thread.sleep(2000);
-					   obj.Takesnap(driverqa, Config.SnapShotPath() + "/Rates/Existing_allotment_can_be_edited/Final-Rate-filter-screen.jpg");
+					 */  obj.Takesnap(driverqa, Config.SnapShotPath() + "/Rates/Existing_allotment_can_be_edited/Final-Rate-filter-screen.jpg");
 					   driverqa.findElement(RateFilter.filterrates).click();
 					   wait.until(ExpectedConditions.visibilityOfElementLocated(AddRate.newrate));
 					   Thread.sleep(2000);
@@ -184,18 +186,29 @@ public class Existing_allotment_can_be_edited {
 					  obj.Takesnap(driverqa, Config.SnapShotPath() + "/Rates/Existing_allotment_can_be_edited/Before_edit.jpg");
 					 
 					  driverqa.findElement(EditRates.Allotment_count).clear();
-					  driverqa.findElement(EditRates.Allotment_count).sendKeys(excel.getData(3, 10, 0));
+					  driverqa.findElement(EditRates.Allotment_count).sendKeys(excel.getData(0, 28, 1));
 					  Thread.sleep(2000);
 					  obj.Takesnap(driverqa, Config.SnapShotPath() + "/Rates/Existing_allotment_can_be_edited/After_edit.jpg");
 					  driverqa.findElement(EditRates.savenotechanges).click();
 					  Thread.sleep(2000);
 					  obj.Takesnap(driverqa, Config.SnapShotPath() + "/Rates/Existing_allotment_can_be_edited/Success.jpg");
+					  Actions action1 = new Actions(driverqa);
+					  /*ExpectedCondition<Boolean> pageLoadCondition = new
+				                ExpectedCondition<Boolean>() {
+				                    public Boolean apply(WebDriver driver) {
+				                        return ((JavascriptExecutor)driverqa).executeScript("return document.readyState").equals("complete");
+				                    }
+				                };
+				        wait.until(pageLoadCondition);*/
 					  
-					 
-					  driverqa.findElement(EditRates.close_pop).click();
+					  Thread.sleep(3000);
+				        
+						action1.sendKeys(Keys.ESCAPE).build().perform();
+					  //driverqa.findElement(EditRates.close_pop).click();
 					  Thread.sleep(4000);
 					  String actualrateresult= driverqa.findElement(EditRates.Allotment_updated).getText();
-					   String rateexpectedresult = excel.getData(3, 10, 0);
+					  System.out.println(actualrateresult);
+					   String rateexpectedresult = excel.getData(0, 28, 1);
 					   Assert.assertEquals(actualrateresult, rateexpectedresult);
 					   logger.info("Allotment edited");
 					   test.log(LogStatus.PASS, "Allotment edited");
@@ -223,6 +236,6 @@ public class Existing_allotment_can_be_edited {
 
 			rep.endTest(test);
 			rep.flush();
-			driverqa.close();
+		//	driverqa.close();
 		}
 }

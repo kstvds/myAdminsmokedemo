@@ -133,7 +133,7 @@ public class Transfer_Search_Apply_Filters_For_Search_Results {
 				 try {
 					 test.log(LogStatus.PASS, "Selecting Customer");
 					wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-					 driverqa.findElement(Operations.company).sendKeys(excel.getData(1, 4, 0));
+					 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 					 Thread.sleep(1000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
@@ -142,8 +142,8 @@ public class Transfer_Search_Apply_Filters_For_Search_Results {
 					 Thread.sleep(2000);
 					 
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer/Transfer_booking_for_adults_with_children/Customer-list-book-hotel.jpg");
-					 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCustbook));
-					 driverqa.findElement(Operations.chooseCustbook).click();
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
+					 driverqa.findElement(Operations.chooseCust).click();
 					Thread.sleep(1000);
 					String searchpageactualtitle = driverqa.getTitle();
 					String searchpageexpectedtitle = "DOTWconnect.com::";
@@ -168,38 +168,38 @@ public class Transfer_Search_Apply_Filters_For_Search_Results {
 					 Thread.sleep(2000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();*/
-					 driverqa.findElement(NewAccoBooking.transferName).sendKeys(excel.getData(1, 10, 0));
+					 driverqa.findElement(NewAccoBooking.transferName).sendKeys(excel.getData(0, 34, 1));
 					 Thread.sleep(2000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
 					 Select transferTime= new Select(driverqa.findElement(NewAccoBooking.transferTime));
 					 transferTime.selectByIndex(9);
 					 driverqa.findElement(NewAccoBooking.transferDate).clear();
-					 driverqa.findElement(NewAccoBooking.transferDate).sendKeys(excel.getData(1, 13, 0));
+					 driverqa.findElement(NewAccoBooking.transferDate).sendKeys(excel.getData(0, 34, 2));
 					// action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
 					/* driver.findElement(NewAccoBooking.outDate).clear();
 					 driver.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(1, 13, 1));*/
-					 String expected=excel.getData(1, 10, 0);
+					 String expected=excel.getData(0, 34, 1);
 					 Select noofchild = new Select(driverqa.findElement(NewAccoBooking.transferBookingChild));
 					 noofchild.selectByIndex(1);
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferBookingChildAge));
-					 Select childage = new Select(driverqa.findElement(NewAccoBooking.transferBookingChildAge));
-					 childage.selectByIndex(5);
+					 /*Select childage = new Select(driverqa.findElement(NewAccoBooking.transferBookingChildAge));
+					 childage.selectByIndex(5);*/
 					 //driver.findElement(NewAccoBooking.allcheckbox).click();
-					 Thread.sleep(2000);
+					 Thread.sleep(3000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer/Transfer_booking_for_adults_with_children/Search-Hotel-filters-book-hotel.jpg");
 					 driverqa.findElement(NewAccoBooking.searchButton).click();
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.resultHotel));
 					 String result= driverqa.findElement(NewAccoBooking.resultHotel).getText();
-					 Thread.sleep(2000);
+					 Thread.sleep(3000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer/Transfer_booking_for_adults_with_children/Search-Result-book-hotel.jpg");
 					 Assert.assertTrue(result.contains(expected));
 					 test.log(LogStatus.INFO, "Ending TransferSearch");
 					 test.log(LogStatus.PASS, "PASSED TransferSearch");
 					 logger.info("Transfer Search Complete");
-					 rep.endTest(test);
-					 rep.flush();
+					 /*rep.endTest(test);
+					 rep.flush();*/
 				} catch (Exception e) {
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
@@ -222,7 +222,7 @@ public class Transfer_Search_Apply_Filters_For_Search_Results {
 
 			rep.endTest(test);
 			rep.flush();
-			driverqa.close();
+			//driverqa.close();
 		}
 		
 		/*@AfterClass

@@ -82,6 +82,7 @@ public class Visa_Booking {
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}
@@ -114,25 +115,25 @@ public class Visa_Booking {
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}
 		logger.info("Searching Customer");
 
 		try {
-			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.city));
-			driverqa.findElement(Operations.company).sendKeys(excel.getData(3, 1, 0));
-			Thread.sleep(1000);
-			action.sendKeys(Keys.ARROW_DOWN).build().perform();
-			action.sendKeys(Keys.ENTER).build().perform();
-			Thread.sleep(2000);
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Visa/Visa_book/Customer-filter-search.jpg");
-			action.sendKeys(Keys.ENTER).build().perform();
-			Thread.sleep(2000);
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Visa/Visa_book/Customer-list-search.jpg");
-			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
-			logger.info("Selecting Customer");
-			driverqa.findElement(Operations.chooseCust).click();
+			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
+			 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
+			 Thread.sleep(3000);
+			 action.sendKeys(Keys.ARROW_DOWN).build().perform();
+			 action.sendKeys(Keys.ENTER).build().perform();
+			 Thread.sleep(2000);
+			 action.sendKeys(Keys.ENTER).build().perform();
+			 Thread.sleep(2000);
+			 
+			 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour/Tour_booking_for_adults_with_children/Customer-list-book-hotel.jpg");
+			 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
+			 driverqa.findElement(Operations.chooseCust).click();
 			Thread.sleep(1000);
 			String searchpageactualtitle = driverqa.getTitle();
 			String searchpageexpectedtitle = "DOTWconnect.com::";
@@ -143,6 +144,7 @@ public class Visa_Booking {
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}
@@ -152,16 +154,16 @@ public class Visa_Booking {
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewVisaBooking.Country));
 			Select Country= new Select(driverqa.findElement(NewVisaBooking.Country));
-			Country.selectByVisibleText(excel.getData(3, 4, 0));
+			Country.selectByVisibleText("UNITED ARAB EMIRATES");
 			Thread.sleep(2000);
 			Select PassNationality= new Select(driverqa.findElement(NewVisaBooking.PassNationality));
-			PassNationality.selectByVisibleText(excel.getData(3, 7, 0));
+			PassNationality.selectByVisibleText("AFGHANISTAN");
 			Thread.sleep(2000);
 			driverqa.findElement(NewVisaBooking.Arrival).clear();
-			driverqa.findElement(NewVisaBooking.Arrival).sendKeys(excel.getData(3, 10, 0));
+			driverqa.findElement(NewVisaBooking.Arrival).sendKeys(excel.getData(0, 54, 0));
 			Thread.sleep(2000);
 			driverqa.findElement(NewVisaBooking.Depart).clear();
-			driverqa.findElement(NewVisaBooking.Depart).sendKeys(excel.getData(3, 13, 0));
+			driverqa.findElement(NewVisaBooking.Depart).sendKeys(excel.getData(0, 54, 1));
 			Thread.sleep(2000);
 			obj.Takesnap(driverqa,Config.SnapShotPath() + "/Visa/Visa_book/Filter_Visa.jpg");
 			driverqa.findElement(NewVisaBooking.SearchBtn).click();
@@ -172,19 +174,19 @@ public class Visa_Booking {
 			obj.Takesnap(driverqa,Config.SnapShotPath() + "/Visa/Visa_book/search-visa.jpg");
 			Thread.sleep(1000);
 			driverqa.findElement(NewVisaBooking.PassportDataBtn).click();
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewVisaBooking.Title));
 			Select title= new Select(driverqa.findElement(NewVisaBooking.Title));
-			title.selectByVisibleText(excel.getData(2, 7, 0));
-			driverqa.findElement(NewVisaBooking.PAX_FirstName).sendKeys(excel.getData(2, 7, 2));
-			driverqa.findElement(NewVisaBooking.PAX_LastName).sendKeys(excel.getData(2, 7, 4));
+			title.selectByVisibleText("Sir");
+			driverqa.findElement(NewVisaBooking.PAX_FirstName).sendKeys(excel.getData(0, 21, 1));
+			driverqa.findElement(NewVisaBooking.PAX_LastName).sendKeys(excel.getData(0, 21, 2));
 			driverqa.findElement(NewVisaBooking.SubmitBtn).click();
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewVisaBooking.VisaBookingDetails));
 			String VisaBookingDetails = driverqa.findElement(NewVisaBooking.VisaBookingDetails).getText();
 			System.out.println(VisaBookingDetails);
 			String VisaID = driverqa.findElement(NewVisaBooking.VisaID).getText();
 			System.out.println(VisaID);
-			excel.putData(4, 4, 0, VisaID);
+			excel.putData(0, 53, 1, VisaID);
 			obj.Takesnap(driverqa,Config.SnapShotPath() + "/Visa/Visa_book/Booking Status.jpg");
 //			String ExpectedStatus=excel.getData(2, 10, 0);
 			//Assert.assertTrue(BookingDetails.contains(ExpectedStatus));
@@ -195,6 +197,7 @@ public class Visa_Booking {
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false, e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}
@@ -214,6 +217,6 @@ public class Visa_Booking {
 
 		rep.endTest(test);
 		rep.flush();
-		driverqa.close();
+		//driverqa.close();
 	}
 }

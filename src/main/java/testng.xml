@@ -1,24 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="none">
-	 <test name="Test1">
+ <!-- <test name="Test2">
 	<parameter name="browsername" value="CH"/>
 		<classes>
 			<class
-				name="automationFramework.Accommodation_booking_3rdparty" />
-		</classes>
-	</test>
- <!-- test name="Test2">
-	<parameter name="browsername" value="CH"/>
-		<classes>
-			<class
-				name="automationFramework.Accommodation_bookingHistory" />
+				name="automationFramework.Accommodation_booking_3rdparty_multiroom" />
 		</classes>
 	</test>
 	 <test name="Test3">
 	<parameter name="browsername" value="CH"/>
 		<classes>
 			<class
+				name="automationFramework.Accommodation_booking_3rdparty" />
+		</classes>
+	</test> -->
+	 <test name="Test4">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="automationFramework.Accommodation_booking_cancel_reservation" />
+		</classes>
+	</test>
+	 <test name="Test5">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="automationFramework.Accommodation_booking_Direct_multiroom" />
+		</classes>
+	</test>
+	<!--  <test name="Test6">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="automationFramework.Accommodation_booking_dotwRates_multiroom" />
+		</classes>
+	</test>
+	 <test name="Test7">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="automationFramework.Accommodation_booking_for_adults_with_children" />
+		</classes>
+	</test>
+	 <test name="Test8">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room" />
+		</classes>
+	</test>
+	 <test name="Test9">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
 				name="automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room" />
 		</classes>
-	</test-->
+	</test>
+	 <test name="Test10">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="automationFramework.Accommodation_bookingHistory" />
+		</classes>
+	</test>
+	<test name="Test11">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="automationFramework.Accommodation_search_apply_filters_for_search_results" />
+		</classes>
+	</test>
+	<test name="Test12">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="automationFramework.Search_reservation_by_product_type_accommodation" />
+		</classes>
+	</test> -->
 </suite> 
+

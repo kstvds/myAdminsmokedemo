@@ -103,7 +103,7 @@ public class Search_reservation_by_producttype_visa {
 			Select ProductType= new Select(driverqa.findElement(Operations.ProductType));
 			ProductType.selectByIndex(4);
 			Thread.sleep(2000);
-			driverqa.findElement(Operations.RefNo).sendKeys(excel.getData(4, 4, 0));		
+			driverqa.findElement(Operations.RefNo).sendKeys(excel.getData(0, 53, 1));		
 			Thread.sleep(1000);			
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Visa/Search_Reservation_visa/CRO-filter-search.jpg");
 			driverqa.findElement(Operations.SearchBtnCRO).click();;
@@ -111,9 +111,9 @@ public class Search_reservation_by_producttype_visa {
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Visa/Search_Reservation_visa/visaResult.jpg");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.Result));
 			String ExpectedResult=driverqa.findElement(Operations.Result).getText();
-			String ActualResult=excel.getData(4, 4, 0);
+			String ActualResult=excel.getData(0, 53, 1);
 			Assert.assertTrue(ActualResult.contains(ExpectedResult));
-			Assert.assertTrue(true);
+			
 			test.log(LogStatus.INFO, "Ending Search_reservation_by_producttype_visa");
 			test.log(LogStatus.PASS, "PASSED Search_reservation_by_producttype_visa");
 			logger.info("Search_reservation_by_producttype_visa Complete");
@@ -121,6 +121,7 @@ public class Search_reservation_by_producttype_visa {
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
+			Assert.assertTrue(false,e.getMessage());
 			rep.endTest(test);
 			rep.flush();
 		}

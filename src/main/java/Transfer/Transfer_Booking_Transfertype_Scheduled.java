@@ -82,7 +82,7 @@ public class Transfer_Booking_Transfertype_Scheduled {
 			test.log(LogStatus.INFO, "Ending LoginTest");
 			test.log(LogStatus.PASS, "PASSED LoginTest");
 			logger.info("Login Successful");
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -114,7 +114,7 @@ public class Transfer_Booking_Transfertype_Scheduled {
 			Assert.assertEquals(searchcustatualtitle, searchcustexpectedtitle);
 			logger.info("Navigated to customer search page");
 			test.log(LogStatus.PASS, "Customer Search Page");
-		} catch (Exception e) {
+		} catch (Throwable e) {
 			logger.info(e.getMessage());
 			test.log(LogStatus.FAIL, e.getMessage());
 			rep.endTest(test);
@@ -125,7 +125,7 @@ public class Transfer_Booking_Transfertype_Scheduled {
 				 try {
 					 test.log(LogStatus.PASS, "Selecting Customer");
 					wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-					 driverqa.findElement(Operations.company).sendKeys(excel.getData(1, 4, 0));
+					 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 					 Thread.sleep(1000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
@@ -133,8 +133,8 @@ public class Transfer_Booking_Transfertype_Scheduled {
 					 action.sendKeys(Keys.ENTER).build().perform();
 					 Thread.sleep(2000);
 					 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Transfer/Transfer_booking_for_adults_with_children/Customer-list-transfer-book.jpg");
-					 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCustbook));
-					 driverqa.findElement(Operations.chooseCustbook).click();
+					 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
+					 driverqa.findElement(Operations.chooseCust).click();
 					Thread.sleep(1000);
 					String searchpageactualtitle = driverqa.getTitle();
 					String searchpageexpectedtitle = "DOTWconnect.com::";
@@ -142,7 +142,7 @@ public class Transfer_Booking_Transfertype_Scheduled {
 					logger.info("Customer Selected");
 					test.log(LogStatus.PASS, "Customer Selected");
 				 }
-				 catch (Exception e) {
+				 catch (Throwable e) {
 						logger.info(e.getMessage());
 						test.log(LogStatus.FAIL, e.getMessage());
 						rep.endTest(test);
@@ -154,14 +154,14 @@ public class Transfer_Booking_Transfertype_Scheduled {
 				 try{
 					 test.log(LogStatus.INFO, "Starting TransferSearch");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferName));
-					 driverqa.findElement(NewAccoBooking.transferName).sendKeys(excel.getData(3, 10, 0));
+					 driverqa.findElement(NewAccoBooking.transferName).sendKeys(excel.getData(0, 32, 1));
 					 Thread.sleep(2000);
 					 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 					 action.sendKeys(Keys.ENTER).build().perform();
 					 Select transferTime= new Select(driverqa.findElement(NewAccoBooking.transferTime));
 					 transferTime.selectByIndex(9);
 					 driverqa.findElement(NewAccoBooking.transferDate).clear();
-					 driverqa.findElement(NewAccoBooking.transferDate).sendKeys(excel.getData(3, 13, 0));
+					 driverqa.findElement(NewAccoBooking.transferDate).sendKeys(excel.getData(0, 32, 2));
 					 action.sendKeys(Keys.ENTER).build().perform();
 					 Select transferType = new Select(driverqa.findElement(NewAccoBooking.transferType));
 					 transferType.selectByIndex(1);
@@ -169,7 +169,7 @@ public class Transfer_Booking_Transfertype_Scheduled {
 					 pickUpFrom.selectByIndex(0);
 					 Select dropOff = new Select(driverqa.findElement(NewAccoBooking.dropOffTo));
 					 dropOff.selectByIndex(0);
-					 String expected=excel.getData(3, 10, 0);
+					 String expected=excel.getData(0, 32, 1);
 					 Select noofchild = new Select(driverqa.findElement(NewAccoBooking.transferBookingChild));
 					 noofchild.selectByIndex(1);
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferBookingChildAge));
@@ -188,7 +188,7 @@ public class Transfer_Booking_Transfertype_Scheduled {
 					 logger.info("Transfer Search Complete");
 					 rep.endTest(test);
 					 rep.flush();
-				} catch (Exception e) {
+				} catch (Throwable e) {
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -212,16 +212,16 @@ public class Transfer_Booking_Transfertype_Scheduled {
 					 Thread.sleep(2000);
 					 logger.info("Entering First Passenger details");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferFrstPaxFname));
-					 driverqa.findElement(NewAccoBooking.transferFrstPaxFname).sendKeys(excel.getData(1, 17, 0));
+					 driverqa.findElement(NewAccoBooking.transferFrstPaxFname).sendKeys(excel.getData(0, 21, 1));
 					 Thread.sleep(2000);
-					 driverqa.findElement(NewAccoBooking.transferFrstPaxLname).sendKeys(excel.getData(1, 17, 1));
+					 driverqa.findElement(NewAccoBooking.transferFrstPaxLname).sendKeys(excel.getData(0, 21, 2));
 					 Select firstPassengertitle = new Select(driverqa.findElement(NewAccoBooking.transferFrstPaxTitle));
 					 firstPassengertitle.selectByIndex(1);
 					 logger.info("Initiating Pick Up From Airport");
 					 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.transferPickUp));
-					 driverqa.findElement(NewAccoBooking.transferPickUp).sendKeys(excel.getData(2, 2, 0));
+					 driverqa.findElement(NewAccoBooking.transferPickUp).sendKeys(excel.getData(0, 32, 4));
 					 Thread.sleep(2000);
-					 driverqa.findElement(NewAccoBooking.transDropOff).sendKeys(excel.getData(2, 2, 1));
+					 driverqa.findElement(NewAccoBooking.transDropOff).sendKeys(excel.getData(0, 32, 5));
 					 Thread.sleep(3000);
 					 JavascriptExecutor js = (JavascriptExecutor)driverqa;
 					 js.executeScript("window.scrollBy(0,250)", "");
@@ -235,9 +235,8 @@ public class Transfer_Booking_Transfertype_Scheduled {
 					 test.log(LogStatus.INFO, "Ending TransferBookScheduled");
 					 test.log(LogStatus.PASS, "PASSED TransferBookScheduled");
 					 logger.info("Transfer_Scheduled Book Complete");
-					 rep.endTest(test);
-					 rep.flush();
-				} catch (Exception e) {
+					
+				} catch (Throwable e) {
 					logger.info(e.getMessage());
 					test.log(LogStatus.FAIL, e.getMessage());
 					rep.endTest(test);
@@ -260,16 +259,8 @@ public class Transfer_Booking_Transfertype_Scheduled {
 
 			rep.endTest(test);
 			rep.flush();
-			driverqa.close();
+			//driverqa.close();
 		}
 		
-		@AfterClass
-		public void killDriver() {
-			try {
-                Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
-            } catch (IOException e) {
-                e.printStackTrace();
-            };
-		}
-
+		 
 }

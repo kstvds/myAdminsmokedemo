@@ -11,11 +11,11 @@ public class MultiAccothirdParty {
     
     public static final By adult2 = By.xpath("//*[@id='addRoomsHere']/tr[3]/td[1]/select");
     
-    public static final By thirdpartyroomOne = By.xpath("//*[@id='roomtype_92300_0_0_0']");
+    public static final By thirdpartyroomOne = By.xpath("//*[@id='roomtype_44034_0_0_0']");
     
-    public static final By thirdpartyroomTwo = By.xpath("//*[@id='roomtype_92300_1_0_0']"); 
+    public static final By thirdpartyroomTwo = By.xpath("//*[@id='roomtype_44034_1_0_0']"); 
     
-    public static final By thirdpartyTWOroomProcede = By.xpath("//*[@id='roomList_92300']/div[6]/div[3]/button");
+    public static final By thirdpartyTWOroomProcede = By.xpath("//*[@id='roomList_44034']/div[6]/div[3]/button");
     
     public static final By paxtitle1 = By.xpath("//*[@id='passengerDetails']/div[1]/div/div[1]/select");//*[@id="passengerDetails"]/div[6]/div/div[1]/select
 

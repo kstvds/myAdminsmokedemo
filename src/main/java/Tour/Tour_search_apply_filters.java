@@ -133,19 +133,18 @@ public class Tour_search_apply_filters {
 		logger.info("Searching Customer");
 
 		try {
-			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.city));
-			driverqa.findElement(Operations.city).sendKeys(excel.getData(0, 4, 0));
-			Thread.sleep(1000);
-			action.sendKeys(Keys.ARROW_DOWN).build().perform();
-			action.sendKeys(Keys.ENTER).build().perform();
-			Thread.sleep(2000);
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour/Tour_search_apply_filters_for_search_results/Customer-filter-search-hotel.jpg");
-			action.sendKeys(Keys.ENTER).build().perform();
-			Thread.sleep(2000);
-			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour/Tour_search_apply_filters_for_search_results/Customer-list-search-hotel.jpg");
-			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
-			logger.info("Selecting Customer");
-			driverqa.findElement(Operations.chooseCust).click();
+			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
+			 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
+			 Thread.sleep(3000);
+			 action.sendKeys(Keys.ARROW_DOWN).build().perform();
+			 action.sendKeys(Keys.ENTER).build().perform();
+			 Thread.sleep(2000);
+			 action.sendKeys(Keys.ENTER).build().perform();
+			 Thread.sleep(2000);
+			 
+			 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Tour/Tour_booking_for_adults_with_children/Customer-list-book-hotel.jpg");
+			 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
+			 driverqa.findElement(Operations.chooseCust).click();
 			Thread.sleep(1000);
 			String searchpageactualtitle = driverqa.getTitle();
 			String searchpageexpectedtitle = "DOTWconnect.com::";
@@ -164,20 +163,20 @@ public class Tour_search_apply_filters {
 
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewTourBooking.destCity));
-			driverqa.findElement(NewTourBooking.TourName).sendKeys(excel.getData(2, 1, 0));
-			Thread.sleep(2000);
+			driverqa.findElement(NewTourBooking.TourName).sendKeys(excel.getData(0, 51, 1));
+			Thread.sleep(3000);
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();
 			Thread.sleep(2000);
 			driverqa.findElement(NewTourBooking.TourDate).clear();
-			driverqa.findElement(NewTourBooking.TourDate).sendKeys(excel.getData(2, 4, 0));
+			driverqa.findElement(NewTourBooking.TourDate).sendKeys(excel.getData(0, 51, 2));
 			Thread.sleep(2000);
 			obj.Takesnap(driverqa,Config.SnapShotPath() + "/Tour/Tour_search_apply_filters_for_search_results/Filter_Tour.jpg");
 			driverqa.findElement(NewTourBooking.SearchButton).click();
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewTourBooking.SearchResults));
 			String result = driverqa.findElement(NewTourBooking.TourNameRes).getText();
 			System.out.println(result);
-			String expected = excel.getData(2, 1, 0);
+			String expected = excel.getData(0, 51, 1);
 			//String expected = "CR-CLASSIC DINNER CRUISE (MIDWEEK)";
 			System.out.println(expected);
 			Thread.sleep(2000);

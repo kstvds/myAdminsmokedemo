@@ -17,8 +17,8 @@ public class NewTourBooking {
     public static final By SearchResults = By.xpath(".//*[@id='searchResults']/div[2]");
     public static final By TourNameRes = By.xpath(".//*[@id='tourName_4384']");
     public static final By GetTourButton = By.xpath(".//*[@id='searchResults']/div[3]/div[3]/button");
-    public static final By TourCheckbox = By.xpath(".//*[@id='tour_124588']/div[3]/div/div[1]/div[2]/div/div[1]/label/input");
-    public static final By ProceedBooking = By.xpath(".//*[@id='tour_124588']/div[5]/button");
+    public static final By TourCheckbox = By.xpath("//input[@type='radio'][@data-capacity='0']");
+    public static final By ProceedBooking = By.xpath("//button[@class='btn btn-info'][@type='button']");
     public static final By Title = By.xpath(".//*[@id='passengerDetailsOnModal']/div/div[1]/div[1]/select");
     public static final By PAX_FirstName = By.xpath(".//*[@id='passengerDetailsOnModal']/div/div[1]/div[2]/input");
     public static final By PAX_LastName = By.xpath(".//*[@id='passengerDetailsOnModal']/div/div[1]/div[3]/input");

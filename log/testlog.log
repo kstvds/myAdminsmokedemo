@@ -1,0 +1,1407 @@
+2018-01-25 17:42:01,539 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-01-25 17:42:15,623 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-01-25 17:42:18,789 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-01-25 17:42:22,890 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-01-25 17:42:22,890 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-01-25 17:42:22,890 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-01-25 17:42:27,158 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-01-25 17:42:27,158 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-01-25 17:42:45,377 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-01-25 17:42:45,377 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-01-25 17:43:00,429 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-01-25 17:43:00,429 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-01-25 17:43:02,179 - Accommodation_booking_3rdparty -INFO - Room Type Selected
+2018-01-25 17:43:05,670 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-01-25 17:43:11,563 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-01-25 17:43:46,042 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='table_bookItinerary']/form/div[2]/div[2]/a
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir6548_15394}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 5b3cfdf73bb430f43e1b876da70f01d0
+2018-01-25 17:43:48,969 - Accommodation_bookingHistory -INFO - Test Case Started
+2018-01-25 17:43:52,055 - Accommodation_bookingHistory -INFO - Browser Opened
+2018-01-25 17:43:55,675 - Accommodation_bookingHistory -INFO - Test Case Started
+2018-01-25 17:44:00,557 - Accommodation_bookingHistory -INFO - Login Successful
+2018-01-25 17:44:00,558 - Accommodation_bookingHistory -INFO - Searching Customer
+2018-01-25 17:44:00,558 - Accommodation_bookingHistory -INFO - Navigating to customer search page
+2018-01-25 17:44:05,418 - Accommodation_bookingHistory -INFO - Navigated to customer search page
+2018-01-25 17:44:05,418 - Accommodation_bookingHistory -INFO - Selecting Customer
+2018-01-25 17:44:17,564 - Accommodation_bookingHistory -INFO - Customer Selected
+2018-01-25 17:44:17,565 - Accommodation_bookingHistory -INFO - Applying search Filters
+2018-01-25 17:44:20,908 - Accommodation_bookingHistory -INFO - unknown error: cannot focus element
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir4420_19575}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a4d659b41057a44e1b99ce4b62a2c9c1
+2018-01-25 17:44:23,627 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-01-25 17:44:26,669 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-01-25 17:44:29,699 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-01-25 17:44:33,613 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-01-25 17:44:33,614 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-01-25 17:44:33,615 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-01-25 17:44:37,746 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-01-25 17:44:37,746 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-01-25 17:44:47,876 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-01-25 17:44:47,876 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-01-25 17:44:59,672 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Hotel Search Complete
+2018-01-25 17:44:59,672 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Selecting Room Type
+2018-01-25 17:45:01,011 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Room Type Selected
+2018-01-25 17:45:04,437 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Entering Passenger details
+2018-01-25 17:45:10,550 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Entered Passenger details
+2018-01-25 17:45:19,401 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Hotel Book Complete
+2018-01-25 17:53:32,935 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-01-25 17:53:36,800 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-01-25 17:53:40,159 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-01-25 17:53:44,445 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-01-25 17:53:44,445 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-01-25 17:53:44,445 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-01-25 17:53:49,265 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-01-25 17:53:49,265 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-01-25 17:54:09,062 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-01-25 17:54:09,063 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-01-25 17:54:26,216 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-01-25 17:54:26,217 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-01-25 17:54:28,491 - Accommodation_booking_3rdparty -INFO - Room Type Selected
+2018-01-25 17:54:31,967 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-01-25 17:54:37,914 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-01-25 17:55:12,348 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='table_bookItinerary']/form/div[2]/div[2]/a
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir8380_6843}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3e3a9ae2827f3ad7b5500cc0af856c6a
+2018-01-25 17:55:15,282 - Accommodation_bookingHistory -INFO - Test Case Started
+2018-01-25 17:55:18,115 - Accommodation_bookingHistory -INFO - Browser Opened
+2018-01-25 17:55:21,322 - Accommodation_bookingHistory -INFO - Test Case Started
+2018-01-25 17:55:25,506 - Accommodation_bookingHistory -INFO - Login Successful
+2018-01-25 17:55:25,506 - Accommodation_bookingHistory -INFO - Searching Customer
+2018-01-25 17:55:25,507 - Accommodation_bookingHistory -INFO - Navigating to customer search page
+2018-01-25 17:55:29,670 - Accommodation_bookingHistory -INFO - Navigated to customer search page
+2018-01-25 17:55:29,670 - Accommodation_bookingHistory -INFO - Selecting Customer
+2018-01-25 17:55:43,084 - Accommodation_bookingHistory -INFO - Customer Selected
+2018-01-25 17:55:43,084 - Accommodation_bookingHistory -INFO - Applying search Filters
+2018-01-25 17:55:51,067 - Accommodation_bookingHistory -INFO - Hotel Search Complete
+2018-01-25 17:55:51,067 - Accommodation_bookingHistory -INFO - Selecting Room Type
+2018-01-25 17:55:52,340 - Accommodation_bookingHistory -INFO - Room Type Selected
+2018-01-25 17:55:55,834 - Accommodation_bookingHistory -INFO - Entering Passenger details
+2018-01-25 17:56:01,984 - Accommodation_bookingHistory -INFO - Entered Passenger details
+2018-01-25 17:56:15,514 - Accommodation_bookingHistory -INFO - Hotel Book Complete and History
+2018-01-25 17:56:15,739 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-01-25 17:56:18,809 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-01-25 17:56:22,243 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-01-25 17:56:26,331 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-01-25 17:56:26,331 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-01-25 17:56:26,331 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-01-25 17:56:30,830 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-01-25 17:56:30,831 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-01-25 17:56:43,620 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-01-25 17:56:43,620 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-01-25 17:56:56,052 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Hotel Search Complete
+2018-01-25 17:56:56,053 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Selecting Room Type
+2018-01-25 17:56:57,312 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Room Type Selected
+2018-01-25 17:57:00,755 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Entering Passenger details
+2018-01-25 17:57:07,021 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Entered Passenger details
+2018-01-25 17:57:14,886 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Hotel Book Complete
+2018-01-25 18:03:29,730 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-01-25 18:03:33,093 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-01-25 18:03:36,485 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-01-25 18:03:40,887 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-01-25 18:03:40,887 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-01-25 18:03:40,887 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-01-25 18:03:45,369 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-01-25 18:03:45,369 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-01-25 18:04:03,897 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-01-25 18:04:03,897 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-01-25 18:04:19,355 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-01-25 18:04:19,357 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-01-25 18:04:21,635 - Accommodation_booking_3rdparty -INFO - Room Type Selected
+2018-01-25 18:04:25,092 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-01-25 18:04:30,979 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-01-25 18:05:05,444 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='table_bookItinerary']/form/div[2]/div[2]/a
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir8632_5646}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 72a1511ee2cc890fce3b8428799c9fa8
+2018-02-05 14:50:12,412 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 14:50:32,411 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-05 14:50:36,558 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 14:50:44,528 - Accommodation_booking_3rdparty -INFO - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir9348_10972}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f1097d5bb039b1df71199b253476ebc5
+2018-02-05 14:51:00,717 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 14:51:05,510 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-05 14:51:09,834 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 14:51:16,551 - Accommodation_booking_3rdparty -INFO - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir8396_11277}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 5de21829b08c0bf8756fca4db7d91c14
+2018-02-05 15:03:28,009 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 15:03:32,877 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-05 15:03:37,421 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 15:03:41,687 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-05 15:03:41,687 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-05 15:03:41,687 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-05 15:03:45,980 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-05 15:03:45,981 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-05 15:03:59,175 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-05 15:03:59,176 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-05 15:04:02,592 - Accommodation_booking_3rdparty -INFO - unknown error: cannot focus element
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir6064_13101}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d5af8433cb6002bb60f2418b1446992f
+2018-02-05 17:31:42,494 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 17:31:50,457 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-05 17:31:54,084 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 17:31:58,695 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-05 17:31:58,696 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-05 17:31:58,697 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-05 17:32:03,147 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-05 17:32:03,149 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-05 17:32:44,643 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 17:32:48,418 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-05 17:32:52,111 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-05 17:32:57,603 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-05 17:32:57,603 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-05 17:32:57,604 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-05 17:33:03,024 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-05 17:33:03,024 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-05 17:33:17,059 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-05 17:33:17,059 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-05 17:33:53,744 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='Suppliers[Offline Contracts]']/span/span[2]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir8852_14357}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: beab33c42772685d6c5b4c1aa8943273
+2018-02-07 17:09:46,693 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:10:10,356 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-07 17:10:15,577 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:10:23,703 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-07 17:10:23,704 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-07 17:10:23,704 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-07 17:10:28,905 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-07 17:10:28,906 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-07 17:10:43,855 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-07 17:10:43,856 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-07 17:12:03,799 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:12:08,978 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-07 17:12:12,807 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:12:17,555 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-07 17:12:17,556 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-07 17:12:17,556 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-07 17:12:22,161 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-07 17:12:22,161 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-07 17:12:35,707 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-07 17:12:35,707 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-07 17:12:45,042 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-07 17:12:45,042 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-07 17:13:15,449 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='roomtype_92197_0_0_0']
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir8280_27103}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9e5a32153c60ffbd39ca3c4eded699ec
+2018-02-07 17:17:56,156 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:18:00,465 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-07 17:18:04,234 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:18:08,954 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-07 17:18:08,955 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-07 17:18:08,956 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-07 17:18:13,275 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-07 17:18:13,275 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-07 17:18:25,852 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-07 17:18:25,853 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-07 17:18:34,341 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-07 17:18:34,342 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-07 17:19:04,487 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='roomtype_2130554_0_0_0]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir9716_28728}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1a0e34b9addb2ba23378a9f9eec6c6f4
+2018-02-07 17:21:26,300 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:21:29,646 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-07 17:21:33,303 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:21:37,793 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-07 17:21:37,794 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-07 17:21:37,795 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-07 17:21:42,478 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-07 17:21:42,479 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-07 17:21:56,609 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-07 17:21:56,610 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-07 17:22:05,342 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-07 17:22:05,342 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-07 17:22:06,591 - Accommodation_booking_3rdparty -INFO - Room Type 1 Selected
+2018-02-07 17:22:06,739 - Accommodation_booking_3rdparty -INFO - Room Type 2 Selected
+2018-02-07 17:22:10,280 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-02-07 17:22:21,390 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-02-07 17:22:37,076 - Accommodation_booking_3rdparty -INFO - Hotel Multi Room Book Complete
+2018-02-07 17:24:11,233 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2018-02-07 17:24:15,045 - Accommodation_booking_for_adults_with_children -INFO - Browser Opened
+2018-02-07 17:24:19,654 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2018-02-07 17:24:24,458 - Accommodation_booking_for_adults_with_children -INFO - Login Successful
+2018-02-07 17:24:24,460 - Accommodation_booking_for_adults_with_children -INFO - Searching Customer
+2018-02-07 17:24:24,461 - Accommodation_booking_for_adults_with_children -INFO - Navigating to customer search page
+2018-02-07 17:24:28,970 - Accommodation_booking_for_adults_with_children -INFO - Navigated to customer search page
+2018-02-07 17:24:28,971 - Accommodation_booking_for_adults_with_children -INFO - Selecting Customer
+2018-02-07 17:24:45,177 - Accommodation_booking_for_adults_with_children -INFO - Customer Selected
+2018-02-07 17:24:45,179 - Accommodation_booking_for_adults_with_children -INFO - Applying search Filters
+2018-02-07 17:24:58,149 - Accommodation_booking_for_adults_with_children -INFO - Hotel Search Complete
+2018-02-07 17:24:58,150 - Accommodation_booking_for_adults_with_children -INFO - Selecting Room Type
+2018-02-07 17:24:59,464 - Accommodation_booking_for_adults_with_children -INFO - Room Type Selected
+2018-02-07 17:25:02,939 - Accommodation_booking_for_adults_with_children -INFO - Entering Passenger details
+2018-02-07 17:25:09,040 - Accommodation_booking_for_adults_with_children -INFO - Entered Passenger details
+2018-02-07 17:25:43,523 - Accommodation_booking_for_adults_with_children -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='table_bookItinerary']/form/div[2]/div[2]/a
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir6972_32730}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cfe4b7d1f5ad30e42e8eb930186a3026
+2018-02-07 17:27:50,945 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2018-02-07 17:27:54,367 - Accommodation_booking_for_adults_with_children -INFO - Browser Opened
+2018-02-07 17:27:57,804 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2018-02-07 17:28:02,412 - Accommodation_booking_for_adults_with_children -INFO - Login Successful
+2018-02-07 17:28:02,413 - Accommodation_booking_for_adults_with_children -INFO - Searching Customer
+2018-02-07 17:28:02,414 - Accommodation_booking_for_adults_with_children -INFO - Navigating to customer search page
+2018-02-07 17:28:07,021 - Accommodation_booking_for_adults_with_children -INFO - Navigated to customer search page
+2018-02-07 17:28:07,023 - Accommodation_booking_for_adults_with_children -INFO - Selecting Customer
+2018-02-07 17:28:22,700 - Accommodation_booking_for_adults_with_children -INFO - Customer Selected
+2018-02-07 17:28:22,701 - Accommodation_booking_for_adults_with_children -INFO - Applying search Filters
+2018-02-07 17:28:35,693 - Accommodation_booking_for_adults_with_children -INFO - Hotel Search Complete
+2018-02-07 17:28:35,694 - Accommodation_booking_for_adults_with_children -INFO - Selecting Room Type
+2018-02-07 17:28:36,982 - Accommodation_booking_for_adults_with_children -INFO - Room Type Selected
+2018-02-07 17:28:40,453 - Accommodation_booking_for_adults_with_children -INFO - Entering Passenger details
+2018-02-07 17:28:46,573 - Accommodation_booking_for_adults_with_children -INFO - Entered Passenger details
+2018-02-07 17:28:54,285 - Accommodation_booking_for_adults_with_children -INFO - Hotel Book Complete
+2018-02-07 17:30:26,750 - Accommodation_search_apply_filters_for_search_results -INFO - Test Case Started
+2018-02-07 17:30:29,951 - Accommodation_search_apply_filters_for_search_results -INFO - Browser Opened
+2018-02-07 17:30:34,022 - Accommodation_search_apply_filters_for_search_results -INFO - Test Case Started
+2018-02-07 17:30:38,498 - Accommodation_search_apply_filters_for_search_results -INFO - Login Successful
+2018-02-07 17:30:38,499 - Accommodation_search_apply_filters_for_search_results -INFO - Searching Customer
+2018-02-07 17:30:38,499 - Accommodation_search_apply_filters_for_search_results -INFO - Navigating to customer search page
+2018-02-07 17:30:42,993 - Accommodation_search_apply_filters_for_search_results -INFO - Navigated to customer search page
+2018-02-07 17:30:42,994 - Accommodation_search_apply_filters_for_search_results -INFO - Selecting Customer
+2018-02-07 17:30:59,471 - Accommodation_search_apply_filters_for_search_results -INFO - Customer Selected
+2018-02-07 17:30:59,473 - Accommodation_search_apply_filters_for_search_results -INFO - Applying search Filters
+2018-02-07 17:31:11,318 - Accommodation_search_apply_filters_for_search_results -INFO - Hotel Search Complete
+2018-02-07 17:34:10,397 - Search_reservation_by_product_type_accommodation -INFO - Test Case Started
+2018-02-07 17:34:14,146 - Search_reservation_by_product_type_accommodation -INFO - Browser Opened
+2018-02-07 17:34:17,902 - Search_reservation_by_product_type_accommodation -INFO - Test Case Started
+2018-02-07 17:34:23,359 - Search_reservation_by_product_type_accommodation -INFO - Login Successful
+2018-02-07 17:34:23,361 - Search_reservation_by_product_type_accommodation -INFO - Searching Customer
+2018-02-07 17:34:23,362 - Search_reservation_by_product_type_accommodation -INFO - Navigating to customer search page
+2018-02-07 17:34:27,807 - Search_reservation_by_product_type_accommodation -INFO - Navigated to customer search page
+2018-02-07 17:34:27,807 - Search_reservation_by_product_type_accommodation -INFO - Selecting Customer
+2018-02-07 17:34:41,042 - Search_reservation_by_product_type_accommodation -INFO - Customer Selected
+2018-02-07 17:34:41,043 - Search_reservation_by_product_type_accommodation -INFO - Applying search Filters
+2018-02-07 17:34:52,643 - Search_reservation_by_product_type_accommodation -INFO - Hotel Search Complete
+2018-02-07 17:34:52,643 - Search_reservation_by_product_type_accommodation -INFO - Selecting Room Type
+2018-02-07 17:34:53,874 - Search_reservation_by_product_type_accommodation -INFO - Room Type Selected
+2018-02-07 17:34:57,404 - Search_reservation_by_product_type_accommodation -INFO - Entering Passenger details
+2018-02-07 17:35:03,598 - Search_reservation_by_product_type_accommodation -INFO - Entered Passenger details
+2018-02-07 17:35:12,560 - Search_reservation_by_product_type_accommodation -INFO - Hotel Book Complete
+2018-02-07 17:35:12,562 - Search_reservation_by_product_type_accommodation -INFO - Search Accommodation Booking
+2018-02-07 17:35:19,591 - Search_reservation_by_product_type_accommodation -INFO - Search Accommodation Booking Complete
+2018-02-07 17:44:16,498 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:44:19,772 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-07 17:44:22,870 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:44:27,322 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-07 17:44:27,323 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-07 17:44:27,324 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-07 17:44:31,649 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-07 17:44:31,650 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-07 17:44:50,017 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-07 17:44:50,018 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-07 17:46:10,173 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:46:13,412 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-07 17:46:16,217 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:46:20,243 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-07 17:46:20,244 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-07 17:46:20,245 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-07 17:46:24,621 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-07 17:46:24,622 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-07 17:46:44,101 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-07 17:46:44,101 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-07 17:46:59,615 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-07 17:46:59,616 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-07 17:47:00,925 - Accommodation_booking_3rdparty -INFO - Room Type Selected
+2018-02-07 17:47:04,431 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-02-07 17:47:10,512 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-02-07 17:47:45,007 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='table_bookItinerary']/form/div[2]/div[2]/a
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir7124_7039}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9e19377579caeea499e2f325222fa60a
+2018-02-07 17:51:34,142 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:51:37,307 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-07 17:51:40,451 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:51:44,563 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-07 17:51:44,563 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-07 17:51:44,564 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-07 17:51:48,855 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-07 17:51:48,856 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-07 17:52:07,198 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-07 17:52:07,199 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-07 17:52:23,324 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-07 17:52:23,324 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-07 17:52:25,169 - Accommodation_booking_3rdparty -INFO - Room Type Selected
+2018-02-07 17:52:28,641 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-02-07 17:52:37,203 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-02-07 17:53:11,929 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='table_bookItinerary']/form/div[2]/div[2]/a
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir7856_12750}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 17031b739e3a5b5535d9714cd8ccf56f
+2018-02-07 17:53:59,467 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:54:02,642 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-07 17:54:06,391 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:54:11,060 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-07 17:54:11,061 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-07 17:54:11,061 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-07 17:54:15,526 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-07 17:54:15,527 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-07 17:54:33,890 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-07 17:54:33,891 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-07 17:54:49,864 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-07 17:54:49,865 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-07 17:54:51,175 - Accommodation_booking_3rdparty -INFO - Room Type Selected
+2018-02-07 17:54:54,662 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-02-07 17:55:03,178 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-02-07 17:55:37,951 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='table_bookItinerary']/form/div[2]/div[2]/a
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir5244_2544}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b4b1e9790944ace0ddcf0958000b4976
+2018-02-07 17:57:07,395 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:57:11,613 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-07 17:57:15,243 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-07 17:57:19,818 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-07 17:57:19,818 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-07 17:57:19,819 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-07 17:57:24,246 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-07 17:57:24,247 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-07 17:57:43,065 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-07 17:57:43,066 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-07 17:57:58,893 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-07 17:57:58,894 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-07 17:58:00,174 - Accommodation_booking_3rdparty -INFO - Room Type Selected
+2018-02-07 17:58:03,643 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-02-07 17:58:12,214 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-02-07 17:58:24,657 - Accommodation_booking_3rdparty -INFO - Hotel Book Complete
+2018-02-07 18:09:52,106 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:09:55,511 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-02-07 18:09:58,716 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:10:03,322 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-02-07 18:10:03,323 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-02-07 18:10:03,324 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-02-07 18:10:07,967 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-02-07 18:10:07,969 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-02-07 18:10:21,450 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-02-07 18:10:21,451 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-02-07 18:10:59,525 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir10868_16472}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d19a7914618910d7ea949f2e3394e25a
+2018-02-07 18:15:13,240 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:15:17,502 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-02-07 18:15:20,562 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:15:25,614 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-02-07 18:15:25,616 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-02-07 18:15:25,617 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-02-07 18:15:30,144 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-02-07 18:15:30,145 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-02-07 18:15:41,686 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-02-07 18:15:41,686 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-02-07 18:15:47,089 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - element not visible
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir10112_15090}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ed01a00eadf4b5cb555c9e15fa9a4498
+2018-02-07 18:17:28,139 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:17:31,697 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-02-07 18:17:34,920 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:17:40,027 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-02-07 18:17:40,028 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-02-07 18:17:40,028 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-02-07 18:17:44,206 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-02-07 18:17:44,207 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-02-07 18:17:55,243 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-02-07 18:17:55,245 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-02-07 18:18:00,701 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - element not visible
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 28 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir10452_16243}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9174f6d4900ea30115a9fd060fac0e82
+2018-02-07 18:21:53,514 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:21:57,344 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-02-07 18:22:01,618 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:22:06,931 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-02-07 18:22:06,932 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-02-07 18:22:06,933 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-02-07 18:22:11,444 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-02-07 18:22:11,444 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-02-07 18:22:22,960 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-02-07 18:22:22,961 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-02-07 18:22:28,717 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - element not visible
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir11128_12906}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 17dc383c6354371785cb553b4d9ffa13
+2018-02-07 18:25:16,639 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:25:19,871 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-02-07 18:25:23,843 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-07 18:25:28,355 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-02-07 18:25:28,356 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-02-07 18:25:28,356 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-02-07 18:25:32,741 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-02-07 18:25:32,742 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-02-07 18:25:45,376 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-02-07 18:25:45,377 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-02-07 18:26:05,554 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Hotel Search Complete
+2018-02-07 18:26:05,554 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Room Type
+2018-02-07 18:26:08,422 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Room Type Selected
+2018-02-07 18:26:11,921 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Entering Passenger details
+2018-02-07 18:26:17,895 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Entered Passenger details
+2018-02-07 18:26:32,644 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Hotel Book Complete
+2018-02-08 17:29:21,141 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 17:29:38,453 - Accommodation_booking_3rdparty_multiroom -INFO - Browser Opened
+2018-02-08 17:29:42,709 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 17:29:47,546 - Accommodation_booking_3rdparty_multiroom -INFO - Login Successful
+2018-02-08 17:29:47,547 - Accommodation_booking_3rdparty_multiroom -INFO - Searching Customer
+2018-02-08 17:29:47,548 - Accommodation_booking_3rdparty_multiroom -INFO - Navigating to customer search page
+2018-02-08 17:29:52,004 - Accommodation_booking_3rdparty_multiroom -INFO - Navigated to customer search page
+2018-02-08 17:29:52,005 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Customer
+2018-02-08 17:30:18,637 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 17:30:22,485 - Accommodation_booking_3rdparty_multiroom -INFO - Browser Opened
+2018-02-08 17:30:27,524 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 17:30:34,120 - Accommodation_booking_3rdparty_multiroom -INFO - Login Successful
+2018-02-08 17:30:34,121 - Accommodation_booking_3rdparty_multiroom -INFO - Searching Customer
+2018-02-08 17:30:34,122 - Accommodation_booking_3rdparty_multiroom -INFO - Navigating to customer search page
+2018-02-08 17:30:55,074 - Accommodation_booking_3rdparty_multiroom -INFO - Navigated to customer search page
+2018-02-08 17:30:55,075 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Customer
+2018-02-08 17:31:10,724 - Accommodation_booking_3rdparty_multiroom -INFO - Customer Selected
+2018-02-08 17:31:10,724 - Accommodation_booking_3rdparty_multiroom -INFO - Applying search Filters
+2018-02-08 17:31:40,938 - Accommodation_booking_3rdparty_multiroom -INFO - Hotel Search Complete
+2018-02-08 17:31:40,938 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Room Type
+2018-02-08 17:32:11,201 - Accommodation_booking_3rdparty_multiroom -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='roomtype_92300_0_0_0']
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir8116_23748}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6f52bf4b7688ab6a679d1fec41d04c78
+2018-02-08 17:52:15,235 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 17:52:20,236 - Accommodation_booking_3rdparty_multiroom -INFO - Browser Opened
+2018-02-08 17:52:23,663 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 17:52:28,022 - Accommodation_booking_3rdparty_multiroom -INFO - Login Successful
+2018-02-08 17:52:28,022 - Accommodation_booking_3rdparty_multiroom -INFO - Searching Customer
+2018-02-08 17:52:28,022 - Accommodation_booking_3rdparty_multiroom -INFO - Navigating to customer search page
+2018-02-08 17:52:32,538 - Accommodation_booking_3rdparty_multiroom -INFO - Navigated to customer search page
+2018-02-08 17:52:32,540 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Customer
+2018-02-08 17:52:46,369 - Accommodation_booking_3rdparty_multiroom -INFO - Customer Selected
+2018-02-08 17:52:46,370 - Accommodation_booking_3rdparty_multiroom -INFO - Applying search Filters
+2018-02-08 17:53:02,355 - Accommodation_booking_3rdparty_multiroom -INFO - Hotel Search Complete
+2018-02-08 17:53:02,355 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Room Type
+2018-02-08 17:53:04,238 - Accommodation_booking_3rdparty_multiroom -INFO - Room Type 1 Selected
+2018-02-08 17:53:34,281 - Accommodation_booking_3rdparty_multiroom -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id=roomtype_44034_1_0_0']
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir4844_6044}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0cfcd6d3743c165fbe3999a9bf2bb26d
+2018-02-08 17:59:03,923 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 17:59:24,767 - Accommodation_booking_3rdparty_multiroom -INFO - Browser Opened
+2018-02-08 17:59:27,930 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 17:59:32,393 - Accommodation_booking_3rdparty_multiroom -INFO - Login Successful
+2018-02-08 17:59:32,394 - Accommodation_booking_3rdparty_multiroom -INFO - Searching Customer
+2018-02-08 17:59:32,395 - Accommodation_booking_3rdparty_multiroom -INFO - Navigating to customer search page
+2018-02-08 17:59:36,937 - Accommodation_booking_3rdparty_multiroom -INFO - Navigated to customer search page
+2018-02-08 17:59:36,938 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Customer
+2018-02-08 17:59:50,777 - Accommodation_booking_3rdparty_multiroom -INFO - Customer Selected
+2018-02-08 17:59:50,779 - Accommodation_booking_3rdparty_multiroom -INFO - Applying search Filters
+2018-02-08 18:00:05,914 - Accommodation_booking_3rdparty_multiroom -INFO - Hotel Search Complete
+2018-02-08 18:00:05,914 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Room Type
+2018-02-08 18:00:07,742 - Accommodation_booking_3rdparty_multiroom -INFO - Room Type 1 Selected
+2018-02-08 18:00:07,893 - Accommodation_booking_3rdparty_multiroom -INFO - Room Type 2 Selected
+2018-02-08 18:00:39,661 - Accommodation_booking_3rdparty_multiroom -INFO - Timed out after 30 seconds waiting for visibility of element located by By.linkText: Proceed to booking
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir10720_32695}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 59b91f6296df1e256dc460dbf8c2cd8e
+2018-02-08 19:02:07,740 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 19:02:13,814 - Accommodation_booking_3rdparty_multiroom -INFO - Browser Opened
+2018-02-08 19:02:16,842 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-08 19:02:21,358 - Accommodation_booking_3rdparty_multiroom -INFO - Login Successful
+2018-02-08 19:02:21,359 - Accommodation_booking_3rdparty_multiroom -INFO - Searching Customer
+2018-02-08 19:02:21,360 - Accommodation_booking_3rdparty_multiroom -INFO - Navigating to customer search page
+2018-02-08 19:02:25,871 - Accommodation_booking_3rdparty_multiroom -INFO - Navigated to customer search page
+2018-02-08 19:02:25,872 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Customer
+2018-02-08 19:02:41,149 - Accommodation_booking_3rdparty_multiroom -INFO - Customer Selected
+2018-02-08 19:02:41,149 - Accommodation_booking_3rdparty_multiroom -INFO - Applying search Filters
+2018-02-08 19:02:55,975 - Accommodation_booking_3rdparty_multiroom -INFO - Hotel Search Complete
+2018-02-08 19:02:55,976 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Room Type
+2018-02-08 19:02:57,779 - Accommodation_booking_3rdparty_multiroom -INFO - Room Type 1 Selected
+2018-02-08 19:02:57,895 - Accommodation_booking_3rdparty_multiroom -INFO - Room Type 2 Selected
+2018-02-08 19:03:01,439 - Accommodation_booking_3rdparty_multiroom -INFO - Entering Passenger details
+2018-02-08 19:03:10,473 - Accommodation_booking_3rdparty_multiroom -INFO - Entered Passenger details
+2018-02-08 19:03:26,303 - Accommodation_booking_3rdparty_multiroom -INFO - Hotel Multi Room Book Complete
+2018-02-13 16:34:58,569 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2018-02-13 16:35:02,641 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2018-02-13 16:35:09,127 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2018-02-13 16:35:09,224 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2018-02-13 16:35:14,161 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2018-02-13 16:35:14,162 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2018-02-13 16:35:23,694 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2018-02-13 16:35:23,695 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2018-02-13 16:35:35,081 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2018-02-13 16:44:14,943 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2018-02-13 16:44:18,195 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2018-02-13 16:44:23,373 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2018-02-13 16:44:23,435 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2018-02-13 16:44:27,805 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2018-02-13 16:44:27,806 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2018-02-13 16:44:37,189 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2018-02-13 16:44:37,191 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2018-02-13 16:44:48,332 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2018-02-13 16:44:48,560 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2018-02-13 16:44:49,817 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2018-02-13 16:44:53,325 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2018-02-13 16:44:55,876 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2018-02-13 16:45:04,839 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Cannot get a STRING value from a NUMERIC cell
+2018-02-13 16:49:07,516 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2018-02-13 16:49:11,456 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2018-02-13 16:49:16,315 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2018-02-13 16:49:16,433 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2018-02-13 16:49:20,987 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2018-02-13 16:49:20,989 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2018-02-13 16:49:30,540 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2018-02-13 16:49:30,541 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2018-02-13 16:49:41,625 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2018-02-13 16:49:41,874 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2018-02-13 16:49:43,128 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2018-02-13 16:49:46,623 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2018-02-13 16:49:49,312 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2018-02-13 16:50:02,201 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entered Passenger details
+2018-02-13 16:50:06,567 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Book Complete
+2018-02-13 17:18:28,368 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2018-02-13 17:18:33,764 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2018-02-13 17:18:38,769 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2018-02-13 17:18:38,887 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2018-02-13 17:18:43,270 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2018-02-13 17:18:43,271 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2018-02-13 17:18:53,083 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2018-02-13 17:18:53,084 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2018-02-13 17:19:03,227 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2018-02-13 17:19:03,471 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2018-02-13 17:19:33,982 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //input[@data-capacity='3']
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir6620_6437}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: e0c8be2748bd27659c2ccae03d25b4bf
+2018-02-13 17:21:45,840 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2018-02-13 17:21:49,237 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2018-02-13 17:21:54,240 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2018-02-13 17:21:54,312 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2018-02-13 17:21:59,343 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2018-02-13 17:21:59,344 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2018-02-13 17:22:09,321 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2018-02-13 17:22:09,322 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2018-02-13 17:22:19,416 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2018-02-13 17:22:19,664 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2018-02-13 17:22:20,989 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2018-02-13 17:22:24,459 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2018-02-13 17:22:26,865 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2018-02-13 17:22:39,712 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entered Passenger details
+2018-02-13 17:22:44,090 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Book Complete
+2018-02-13 17:22:48,090 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Viewing reservation status of service type Transfer
+2018-02-13 17:22:48,458 - transfer_Search_Apply_Filters_For_Search_Results -INFO - D:\Test Repository\TestData-Latest.xlsx (The process cannot access the file because it is being used by another process)
+2018-02-13 17:23:28,716 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2018-02-13 17:23:31,752 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2018-02-13 17:23:36,507 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2018-02-13 17:23:36,604 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2018-02-13 17:23:41,189 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2018-02-13 17:23:41,190 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2018-02-13 17:23:50,590 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2018-02-13 17:23:50,591 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2018-02-13 17:24:00,673 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2018-02-13 17:24:00,931 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2018-02-13 17:24:02,211 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2018-02-13 17:24:05,762 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2018-02-13 17:24:08,286 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2018-02-13 17:24:21,049 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entered Passenger details
+2018-02-13 17:24:25,409 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Book Complete
+2018-02-13 17:24:29,409 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Viewing reservation status of service type Transfer
+2018-02-13 17:24:38,005 - transfer_Search_Apply_Filters_For_Search_Results -INFO - To validate if DOTW Ref same as TRN
+2018-02-13 17:24:38,347 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Viewing reservation status of service type Transfer completed
+2018-02-13 17:34:33,582 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Browser Opened
+2018-02-13 17:34:37,027 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Test Case Started
+2018-02-13 17:34:41,706 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Login Successful
+2018-02-13 17:34:41,795 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigating to customer search page
+2018-02-13 17:34:46,148 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Navigated to customer search page
+2018-02-13 17:34:46,149 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Customer
+2018-02-13 17:34:55,360 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Customer Selected
+2018-02-13 17:34:55,361 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Applying search Filters
+2018-02-13 17:35:05,329 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Search Complete
+2018-02-13 17:35:05,534 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Selecting Get Transfer
+2018-02-13 17:35:07,911 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer Type Selected
+2018-02-13 17:35:11,396 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entering First Passenger details
+2018-02-13 17:35:13,900 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Initiating Pick Up From Airport
+2018-02-13 17:35:19,773 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Entered Passenger details
+2018-02-13 17:35:24,107 - transfer_Search_Apply_Filters_For_Search_Results -INFO - Transfer_Scheduled Book Complete
+2018-02-14 12:00:54,397 - Tour_search_apply_filters_for_search_results -INFO - Browser Opened
+2018-02-14 12:00:59,935 - Tour_search_apply_filters_for_search_results -INFO - Test Case Started
+2018-02-14 12:01:07,144 - Tour_search_apply_filters_for_search_results -INFO - Login Successful
+2018-02-14 12:01:07,252 - Tour_search_apply_filters_for_search_results -INFO - Navigating to customer search page
+2018-02-14 12:01:11,769 - Tour_search_apply_filters_for_search_results -INFO - Navigated to customer search page
+2018-02-14 12:01:11,770 - Tour_search_apply_filters_for_search_results -INFO - Searching Customer
+2018-02-14 12:01:24,480 - Tour_search_apply_filters_for_search_results -INFO - Customer Selected
+2018-02-14 12:01:24,480 - Tour_search_apply_filters_for_search_results -INFO - Applying search Filters
+2018-02-14 12:01:34,411 - Tour_search_apply_filters_for_search_results -INFO - no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='tourName_4384']"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir6140_20849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: db43b4b1078c22b82e7830fdcc6be9a6
+*** Element info: {Using=xpath, value=.//*[@id='tourName_4384']}
+2018-02-14 12:08:38,638 - Tour_Booking -INFO - Browser Opened
+2018-02-14 12:08:43,235 - Tour_Booking -INFO - Test Case Started
+2018-02-14 12:08:47,855 - Tour_Booking -INFO - Login Successful
+2018-02-14 12:08:47,910 - Tour_Booking -INFO - Navigating to customer search page
+2018-02-14 12:08:52,201 - Tour_Booking -INFO - Navigated to customer search page
+2018-02-14 12:08:52,203 - Tour_Booking -INFO - Searching Customer
+2018-02-14 12:09:03,295 - Tour_Booking -INFO - Customer Selected
+2018-02-14 12:09:03,296 - Tour_Booking -INFO - Applying search Filters
+2018-02-14 12:09:15,278 - Tour_Booking -INFO - no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='tour_124588']/div[3]/div/div[1]/div[2]/div/div[1]/label/input"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir7756_16096}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 45f24c23d0097081ac809cec1bf5c79d
+*** Element info: {Using=xpath, value=.//*[@id='tour_124588']/div[3]/div/div[1]/div[2]/div/div[1]/label/input}
+2018-02-14 12:17:14,356 - Tour_Booking -INFO - Browser Opened
+2018-02-14 12:17:19,071 - Tour_Booking -INFO - Test Case Started
+2018-02-14 12:17:24,241 - Tour_Booking -INFO - Login Successful
+2018-02-14 12:17:24,373 - Tour_Booking -INFO - Navigating to customer search page
+2018-02-14 12:17:28,837 - Tour_Booking -INFO - Navigated to customer search page
+2018-02-14 12:17:28,837 - Tour_Booking -INFO - Searching Customer
+2018-02-14 12:17:40,429 - Tour_Booking -INFO - Customer Selected
+2018-02-14 12:17:40,431 - Tour_Booking -INFO - Applying search Filters
+2018-02-14 12:17:52,600 - Tour_Booking -INFO - no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='tour_124588']/div[5]/button"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir6228_11622}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b2b7e65b9a9ab6af634b13b6bfdaf051
+*** Element info: {Using=xpath, value=.//*[@id='tour_124588']/div[5]/button}
+2018-02-14 12:27:39,665 - Tour_Booking -INFO - Browser Opened
+2018-02-14 12:27:44,722 - Tour_Booking -INFO - Test Case Started
+2018-02-14 12:27:49,726 - Tour_Booking -INFO - Login Successful
+2018-02-14 12:27:49,787 - Tour_Booking -INFO - Navigating to customer search page
+2018-02-14 12:27:54,221 - Tour_Booking -INFO - Navigated to customer search page
+2018-02-14 12:27:54,222 - Tour_Booking -INFO - Searching Customer
+2018-02-14 12:28:05,905 - Tour_Booking -INFO - Customer Selected
+2018-02-14 12:28:05,906 - Tour_Booking -INFO - Applying search Filters
+2018-02-14 12:28:17,907 - Tour_Booking -INFO - no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='tour_124588']/div[5]/button"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir8616_27713}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: e30a5538980406a17970f8689991a1d0
+*** Element info: {Using=xpath, value=.//*[@id='tour_124588']/div[5]/button}
+2018-02-14 12:31:12,749 - Tour_Booking -INFO - Browser Opened
+2018-02-14 12:31:17,737 - Tour_Booking -INFO - Test Case Started
+2018-02-14 12:31:22,868 - Tour_Booking -INFO - Login Successful
+2018-02-14 12:31:22,918 - Tour_Booking -INFO - Navigating to customer search page
+2018-02-14 12:31:27,506 - Tour_Booking -INFO - Navigated to customer search page
+2018-02-14 12:31:27,506 - Tour_Booking -INFO - Searching Customer
+2018-02-14 12:31:39,432 - Tour_Booking -INFO - Customer Selected
+2018-02-14 12:31:39,434 - Tour_Booking -INFO - Applying search Filters
+2018-02-14 12:32:11,286 - Tour_Booking -INFO - Tour Book Complete
+2018-02-14 12:50:31,494 - Tour_Booking -INFO - Browser Opened
+2018-02-14 12:50:38,366 - Tour_Booking -INFO - Test Case Started
+2018-02-14 12:51:01,081 - Tour_Booking -INFO - Login Successful
+2018-02-14 12:51:01,360 - Tour_Booking -INFO - Navigating to customer search page
+2018-02-14 12:51:06,666 - Tour_Booking -INFO - Navigated to customer search page
+2018-02-14 12:51:06,666 - Tour_Booking -INFO - Searching Customer
+2018-02-14 12:51:20,431 - Tour_Booking -INFO - Customer Selected
+2018-02-14 12:51:20,434 - Tour_Booking -INFO - Applying search Filters
+2018-02-14 12:51:34,903 - Tour_Booking -INFO - no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='bookVisaButton_77']"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir7228_13777}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f88b3523f37b54ef36408446d2ba469e
+*** Element info: {Using=xpath, value=.//*[@id='bookVisaButton_77']}
+2018-02-14 12:53:01,201 - Tour_Booking -INFO - Browser Opened
+2018-02-14 12:53:07,662 - Tour_Booking -INFO - Test Case Started
+2018-02-14 12:53:32,818 - Tour_Booking -INFO - Browser Opened
+2018-02-14 12:53:40,662 - Tour_Booking -INFO - Test Case Started
+2018-02-14 12:53:51,049 - Tour_Booking -INFO - Login Successful
+2018-02-14 12:53:52,225 - Tour_Booking -INFO - Navigating to customer search page
+2018-02-14 12:53:57,361 - Tour_Booking -INFO - Navigated to customer search page
+2018-02-14 12:53:57,361 - Tour_Booking -INFO - Searching Customer
+2018-02-14 12:54:11,633 - Tour_Booking -INFO - Customer Selected
+2018-02-14 12:54:11,635 - Tour_Booking -INFO - Applying search Filters
+2018-02-14 12:54:40,724 - Tour_Booking -INFO - Visa Book Complete
+2018-02-14 12:58:04,163 - Visa_Booking -INFO - Browser Opened
+2018-02-14 12:58:08,771 - Visa_Booking -INFO - Test Case Started
+2018-02-14 12:58:16,272 - Visa_Booking -INFO - Login Successful
+2018-02-14 12:58:16,389 - Visa_Booking -INFO - Navigating to CRO page
+2018-02-14 12:58:25,970 - Visa_Booking -INFO - Search_reservation_by_producttype_visa Complete
+2018-02-14 13:00:53,409 - Tour_Booking -INFO - Browser Opened
+2018-02-14 13:00:58,520 - Tour_Booking -INFO - Test Case Started
+2018-02-14 13:01:04,248 - Tour_Booking -INFO - Login Successful
+2018-02-14 13:01:04,312 - Tour_Booking -INFO - Navigating to CRO page
+2018-02-14 13:01:30,706 - Tour_Booking -INFO - Browser Opened
+2018-02-14 13:01:33,942 - Tour_Booking -INFO - Test Case Started
+2018-02-14 13:01:39,285 - Tour_Booking -INFO - Login Successful
+2018-02-14 13:01:39,332 - Tour_Booking -INFO - Navigating to CRO page
+2018-02-14 13:03:30,765 - Tour_Booking -INFO - Browser Opened
+2018-02-14 13:03:34,216 - Tour_Booking -INFO - Test Case Started
+2018-02-14 13:03:39,546 - Tour_Booking -INFO - Login Successful
+2018-02-14 13:03:39,642 - Tour_Booking -INFO - Navigating to CRO page
+2018-02-14 13:03:48,394 - Tour_Booking -INFO - Search_reservation_by_producttype_tours Complete
+2018-02-14 16:17:54,673 - Accomodation_Filterrates_Inactivaterate -INFO - Test Case Started
+2018-02-14 16:18:00,860 - Accomodation_Filterrates_Inactivaterate -INFO - Browser Opened
+2018-02-14 16:18:06,150 - Accomodation_Filterrates_Inactivaterate -INFO - Test Case Started
+2018-02-14 16:18:10,618 - Accomodation_Filterrates_Inactivaterate -INFO - Login Successful
+2018-02-14 16:18:10,619 - Accomodation_Filterrates_Inactivaterate -INFO - Searching Accomodation
+2018-02-14 16:18:10,620 - Accomodation_Filterrates_Inactivaterate -INFO - Navigating to Accomodation Rates page
+2018-02-14 16:18:40,959 - Accomodation_Filterrates_Inactivaterate -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='MenuBar_144']/div[2]/ul[1]/li[1]/a
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir8784_13442}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: e4796d08860a44698584926033a4c94a
+2018-02-14 16:21:04,955 - Accomodation_Filterrates_Inactivaterate -INFO - Test Case Started
+2018-02-14 16:21:09,995 - Accomodation_Filterrates_Inactivaterate -INFO - Browser Opened
+2018-02-14 16:21:14,571 - Accomodation_Filterrates_Inactivaterate -INFO - Test Case Started
+2018-02-14 16:21:19,091 - Accomodation_Filterrates_Inactivaterate -INFO - Login Successful
+2018-02-14 16:21:19,092 - Accomodation_Filterrates_Inactivaterate -INFO - Searching Accomodation
+2018-02-14 16:21:19,093 - Accomodation_Filterrates_Inactivaterate -INFO - Navigating to Accomodation Rates page
+2018-02-14 16:21:23,754 - Accomodation_Filterrates_Inactivaterate -INFO - Navigated to Accomodation Rates page
+2018-02-14 16:21:26,200 - Accomodation_Filterrates_Inactivaterate -INFO - Selecting Accomodation Unit
+2018-02-14 16:21:37,037 - Accomodation_Filterrates_Inactivaterate -INFO - Accomodation Unit Selected
+2018-02-14 16:21:37,037 - Accomodation_Filterrates_Inactivaterate -INFO - Navigating to ContractList
+2018-02-14 16:21:57,544 - Accomodation_Filterrates_Inactivaterate -INFO - Rate Inactivated
+2018-02-14 16:25:06,198 - General_details_about_rates_can_be_edited -INFO - Test Case Started
+2018-02-14 16:25:10,149 - General_details_about_rates_can_be_edited -INFO - Browser Opened
+2018-02-14 16:25:13,991 - General_details_about_rates_can_be_edited -INFO - Test Case Started
+2018-02-14 16:25:17,789 - General_details_about_rates_can_be_edited -INFO - Login Successful
+2018-02-14 16:25:17,790 - General_details_about_rates_can_be_edited -INFO - Searching Accomodation
+2018-02-14 16:25:17,791 - General_details_about_rates_can_be_edited -INFO - Navigating to Accomodation search page
+2018-02-14 16:25:22,458 - General_details_about_rates_can_be_edited -INFO - Navigated to Accomodation search page
+2018-02-14 16:25:24,885 - General_details_about_rates_can_be_edited -INFO - Selecting Accomodation Unit
+2018-02-14 16:25:35,331 - General_details_about_rates_can_be_edited -INFO - Accomodation Unit Selected
+2018-02-14 16:25:35,331 - General_details_about_rates_can_be_edited -INFO - Navigating to ContractList
+2018-02-14 16:25:35,571 - General_details_about_rates_can_be_edited -INFO - Sheet index (1) is out of range (0..0)
+2018-02-14 16:33:02,171 - Publish_new_rate -INFO - Test Case Started
+2018-02-14 16:33:07,590 - Publish_new_rate -INFO - Browser Opened
+2018-02-14 16:33:10,606 - Publish_new_rate -INFO - Test Case Started
+2018-02-14 16:33:14,861 - Publish_new_rate -INFO - Login Successful
+2018-02-14 16:33:14,861 - Publish_new_rate -INFO - Searching Accomodation
+2018-02-14 16:33:14,862 - Publish_new_rate -INFO - Navigating to Accomodation search page
+2018-02-14 16:33:19,277 - Publish_new_rate -INFO - Navigated to Accomodation search page
+2018-02-14 16:33:21,677 - Publish_new_rate -INFO - Selecting Accomodation Unit
+2018-02-14 16:33:34,173 - Publish_new_rate -INFO - Accomodation Unit Selected
+2018-02-14 16:33:34,173 - Publish_new_rate -INFO - Navigating to ContractList
+2018-02-14 16:33:40,411 - Publish_new_rate -INFO - Navigated to ContractList
+2018-02-14 16:33:40,412 - Publish_new_rate -INFO - Adding new rates
+2018-02-14 16:33:47,692 - Publish_new_rate -INFO - Cannot get a STRING value from a NUMERIC cell
+2018-02-14 16:37:50,762 - Publish_new_rate -INFO - Test Case Started
+2018-02-14 16:37:54,578 - Publish_new_rate -INFO - Browser Opened
+2018-02-14 16:37:57,288 - Publish_new_rate -INFO - Test Case Started
+2018-02-14 16:38:01,203 - Publish_new_rate -INFO - Login Successful
+2018-02-14 16:38:01,204 - Publish_new_rate -INFO - Searching Accomodation
+2018-02-14 16:38:01,205 - Publish_new_rate -INFO - Navigating to Accomodation search page
+2018-02-14 16:38:05,871 - Publish_new_rate -INFO - Navigated to Accomodation search page
+2018-02-14 16:38:08,262 - Publish_new_rate -INFO - Selecting Accomodation Unit
+2018-02-14 16:38:20,565 - Publish_new_rate -INFO - Accomodation Unit Selected
+2018-02-14 16:38:20,565 - Publish_new_rate -INFO - Navigating to ContractList
+2018-02-14 16:38:26,756 - Publish_new_rate -INFO - Navigated to ContractList
+2018-02-14 16:38:26,758 - Publish_new_rate -INFO - Adding new rates
+2018-02-14 16:38:39,555 - Publish_new_rate -INFO - element not visible
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir7060_17366}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 94f9cb801b25d59f4260e63146d8285e
+2018-02-14 16:39:10,971 - Publish_new_rate -INFO - Test Case Started
+2018-02-14 16:39:15,189 - Publish_new_rate -INFO - Browser Opened
+2018-02-14 16:39:18,849 - Publish_new_rate -INFO - Test Case Started
+2018-02-14 16:39:23,364 - Publish_new_rate -INFO - Login Successful
+2018-02-14 16:39:23,365 - Publish_new_rate -INFO - Searching Accomodation
+2018-02-14 16:39:23,365 - Publish_new_rate -INFO - Navigating to Accomodation search page
+2018-02-14 16:39:28,012 - Publish_new_rate -INFO - Navigated to Accomodation search page
+2018-02-14 16:39:30,392 - Publish_new_rate -INFO - Selecting Accomodation Unit
+2018-02-14 16:39:43,286 - Publish_new_rate -INFO - Accomodation Unit Selected
+2018-02-14 16:39:43,286 - Publish_new_rate -INFO - Navigating to ContractList
+2018-02-14 16:39:49,754 - Publish_new_rate -INFO - Navigated to ContractList
+2018-02-14 16:39:49,755 - Publish_new_rate -INFO - Adding new rates
+2018-02-14 17:22:49,597 - Publish_new_rate -INFO - Test Case Started
+2018-02-14 17:22:55,925 - Publish_new_rate -INFO - Browser Opened
+2018-02-14 17:22:59,254 - Publish_new_rate -INFO - Test Case Started
+2018-02-14 17:23:03,797 - Publish_new_rate -INFO - Login Successful
+2018-02-14 17:23:03,798 - Publish_new_rate -INFO - Searching Accomodation
+2018-02-14 17:23:03,799 - Publish_new_rate -INFO - Navigating to Accomodation search page
+2018-02-14 17:23:08,786 - Publish_new_rate -INFO - Navigated to Accomodation search page
+2018-02-14 17:23:11,287 - Publish_new_rate -INFO - Selecting Accomodation Unit
+2018-02-14 17:23:23,739 - Publish_new_rate -INFO - Accomodation Unit Selected
+2018-02-14 17:23:23,739 - Publish_new_rate -INFO - Navigating to ContractList
+2018-02-14 17:23:30,084 - Publish_new_rate -INFO - Navigated to ContractList
+2018-02-14 17:23:30,085 - Publish_new_rate -INFO - Adding new rates
+2018-02-15 17:21:21,397 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:21:32,872 - Existing_allotment_can_be_edited -INFO - Browser Opened
+2018-02-15 17:21:36,642 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:21:41,902 - Existing_allotment_can_be_edited -INFO - Login Successful
+2018-02-15 17:21:41,903 - Existing_allotment_can_be_edited -INFO - Searching Accomodation
+2018-02-15 17:21:41,903 - Existing_allotment_can_be_edited -INFO - Navigating to Accomodation search page
+2018-02-15 17:21:46,779 - Existing_allotment_can_be_edited -INFO - Navigated to Accomodation search page
+2018-02-15 17:21:49,294 - Existing_allotment_can_be_edited -INFO - Selecting Accomodation Unit
+2018-02-15 17:21:49,370 - Existing_allotment_can_be_edited -INFO - 
+2018-02-15 17:24:30,627 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:24:34,918 - Existing_allotment_can_be_edited -INFO - Browser Opened
+2018-02-15 17:24:40,294 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:24:45,098 - Existing_allotment_can_be_edited -INFO - Login Successful
+2018-02-15 17:24:45,099 - Existing_allotment_can_be_edited -INFO - Searching Accomodation
+2018-02-15 17:24:45,100 - Existing_allotment_can_be_edited -INFO - Navigating to Accomodation search page
+2018-02-15 17:24:49,736 - Existing_allotment_can_be_edited -INFO - Navigated to Accomodation search page
+2018-02-15 17:24:52,131 - Existing_allotment_can_be_edited -INFO - Selecting Accomodation Unit
+2018-02-15 17:25:03,828 - Existing_allotment_can_be_edited -INFO - Accomodation Unit Selected
+2018-02-15 17:25:03,828 - Existing_allotment_can_be_edited -INFO - Navigating to ContractList
+2018-02-15 17:25:12,249 - Existing_allotment_can_be_edited -INFO - Navigated to ContractList
+2018-02-15 17:25:12,249 - Existing_allotment_can_be_edited -INFO - Editing general details
+2018-02-15 17:25:17,471 - Existing_allotment_can_be_edited -INFO - no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='NbrOfRooms_5474305']"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir12256_31270}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 53bb7197db0d3b022203059a2cb6482b
+*** Element info: {Using=xpath, value=.//*[@id='NbrOfRooms_5474305']}
+2018-02-15 17:40:17,732 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:40:22,519 - Existing_allotment_can_be_edited -INFO - Browser Opened
+2018-02-15 17:40:28,184 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:40:32,434 - Existing_allotment_can_be_edited -INFO - Login Successful
+2018-02-15 17:40:32,435 - Existing_allotment_can_be_edited -INFO - Searching Accomodation
+2018-02-15 17:40:32,436 - Existing_allotment_can_be_edited -INFO - Navigating to Accomodation search page
+2018-02-15 17:40:37,050 - Existing_allotment_can_be_edited -INFO - Navigated to Accomodation search page
+2018-02-15 17:40:39,441 - Existing_allotment_can_be_edited -INFO - Selecting Accomodation Unit
+2018-02-15 17:40:51,181 - Existing_allotment_can_be_edited -INFO - Accomodation Unit Selected
+2018-02-15 17:40:51,181 - Existing_allotment_can_be_edited -INFO - Navigating to ContractList
+2018-02-15 17:40:57,471 - Existing_allotment_can_be_edited -INFO - Navigated to ContractList
+2018-02-15 17:40:57,472 - Existing_allotment_can_be_edited -INFO - Editing general details
+2018-02-15 17:41:08,146 - Existing_allotment_can_be_edited -INFO - no such element: Unable to locate element: {"method":"xpath","selector":"html/body/div[9]/div/div/div[1]/button"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir8240_24042}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d3b3fc41e3de50ac14f406f2c4d394f4
+*** Element info: {Using=xpath, value=html/body/div[9]/div/div/div[1]/button}
+2018-02-15 17:51:29,177 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:51:36,620 - Existing_allotment_can_be_edited -INFO - Browser Opened
+2018-02-15 17:51:39,738 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:51:44,290 - Existing_allotment_can_be_edited -INFO - Login Successful
+2018-02-15 17:51:44,291 - Existing_allotment_can_be_edited -INFO - Searching Accomodation
+2018-02-15 17:51:44,292 - Existing_allotment_can_be_edited -INFO - Navigating to Accomodation search page
+2018-02-15 17:51:48,733 - Existing_allotment_can_be_edited -INFO - Navigated to Accomodation search page
+2018-02-15 17:51:51,481 - Existing_allotment_can_be_edited -INFO - Selecting Accomodation Unit
+2018-02-15 17:52:02,945 - Existing_allotment_can_be_edited -INFO - Accomodation Unit Selected
+2018-02-15 17:52:02,945 - Existing_allotment_can_be_edited -INFO - Navigating to ContractList
+2018-02-15 17:52:10,210 - Existing_allotment_can_be_edited -INFO - Navigated to ContractList
+2018-02-15 17:52:10,211 - Existing_allotment_can_be_edited -INFO - Editing general details
+2018-02-15 17:52:20,959 - Existing_allotment_can_be_edited -INFO - no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[9]/div/div/div[1]/button"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir1888_15993}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 800d1d8a908ea136aecc2bd3a5d93714
+*** Element info: {Using=xpath, value=/html/body/div[9]/div/div/div[1]/button}
+2018-02-15 17:57:17,408 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:57:22,794 - Existing_allotment_can_be_edited -INFO - Browser Opened
+2018-02-15 17:57:26,997 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 17:57:32,296 - Existing_allotment_can_be_edited -INFO - Login Successful
+2018-02-15 17:57:32,297 - Existing_allotment_can_be_edited -INFO - Searching Accomodation
+2018-02-15 17:57:32,297 - Existing_allotment_can_be_edited -INFO - Navigating to Accomodation search page
+2018-02-15 17:57:37,017 - Existing_allotment_can_be_edited -INFO - Navigated to Accomodation search page
+2018-02-15 17:57:39,412 - Existing_allotment_can_be_edited -INFO - Selecting Accomodation Unit
+2018-02-15 17:57:50,770 - Existing_allotment_can_be_edited -INFO - Accomodation Unit Selected
+2018-02-15 17:57:50,770 - Existing_allotment_can_be_edited -INFO - Navigating to ContractList
+2018-02-15 17:57:57,056 - Existing_allotment_can_be_edited -INFO - Navigated to ContractList
+2018-02-15 17:57:57,056 - Existing_allotment_can_be_edited -INFO - Editing general details
+2018-02-15 17:58:11,540 - Existing_allotment_can_be_edited -INFO - no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='allotmentsSection_0']/div[1]/table[1]/tbody/tr[2]/td/table/tbody/tr[1]/td[3]"}
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir11872_15591}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 44001f14b7a1fda85a15a5d31969330e
+*** Element info: {Using=xpath, value=.//*[@id='allotmentsSection_0']/div[1]/table[1]/tbody/tr[2]/td/table/tbody/tr[1]/td[3]}
+2018-02-15 18:07:27,195 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 18:07:30,580 - Existing_allotment_can_be_edited -INFO - Browser Opened
+2018-02-15 18:07:34,131 - Existing_allotment_can_be_edited -INFO - Test Case Started
+2018-02-15 18:07:38,282 - Existing_allotment_can_be_edited -INFO - Login Successful
+2018-02-15 18:07:38,282 - Existing_allotment_can_be_edited -INFO - Searching Accomodation
+2018-02-15 18:07:38,282 - Existing_allotment_can_be_edited -INFO - Navigating to Accomodation search page
+2018-02-15 18:07:42,985 - Existing_allotment_can_be_edited -INFO - Navigated to Accomodation search page
+2018-02-15 18:07:45,352 - Existing_allotment_can_be_edited -INFO - Selecting Accomodation Unit
+2018-02-15 18:07:56,716 - Existing_allotment_can_be_edited -INFO - Accomodation Unit Selected
+2018-02-15 18:07:56,716 - Existing_allotment_can_be_edited -INFO - Navigating to ContractList
+2018-02-15 18:08:02,917 - Existing_allotment_can_be_edited -INFO - Navigated to ContractList
+2018-02-15 18:08:02,917 - Existing_allotment_can_be_edited -INFO - Editing general details
+2018-02-15 18:08:20,690 - Existing_allotment_can_be_edited -INFO - Allotment edited
+2018-02-19 11:41:56,164 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-19 11:42:14,204 - Accommodation_booking_3rdparty_multiroom -INFO - Browser Opened
+2018-02-19 11:42:28,068 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-19 11:42:33,442 - Accommodation_booking_3rdparty_multiroom -INFO - Login Successful
+2018-02-19 11:42:33,443 - Accommodation_booking_3rdparty_multiroom -INFO - Searching Customer
+2018-02-19 11:42:33,443 - Accommodation_booking_3rdparty_multiroom -INFO - Navigating to customer search page
+2018-02-19 11:42:37,749 - Accommodation_booking_3rdparty_multiroom -INFO - Navigated to customer search page
+2018-02-19 11:42:37,749 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Customer
+2018-02-19 11:42:52,353 - Accommodation_booking_3rdparty_multiroom -INFO - Customer Selected
+2018-02-19 11:42:52,354 - Accommodation_booking_3rdparty_multiroom -INFO - Applying search Filters
+2018-02-19 11:43:22,351 - Accommodation_booking_3rdparty_multiroom -INFO - Hotel Search Complete
+2018-02-19 11:43:22,352 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Room Type
+2018-02-19 11:43:23,815 - Accommodation_booking_3rdparty_multiroom -INFO - Room Type 1 Selected
+2018-02-19 11:43:23,950 - Accommodation_booking_3rdparty_multiroom -INFO - Room Type 2 Selected
+2018-02-19 11:43:27,479 - Accommodation_booking_3rdparty_multiroom -INFO - Entering Passenger details
+2018-02-19 11:43:41,675 - Accommodation_booking_3rdparty_multiroom -INFO - Entered Passenger details
+2018-02-19 11:43:57,305 - Accommodation_booking_3rdparty_multiroom -INFO - Hotel Multi Room Book Complete
+2018-02-19 11:43:58,162 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-19 11:44:03,708 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-19 11:44:10,315 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-19 11:44:14,295 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-19 11:44:14,296 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-19 11:44:14,297 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-19 11:44:19,116 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-19 11:44:19,117 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-19 11:44:39,003 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-19 11:44:39,006 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-19 11:44:54,925 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-19 11:44:54,925 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-19 11:44:56,728 - Accommodation_booking_3rdparty -INFO - Room Type Selected
+2018-02-19 11:45:00,220 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-02-19 11:45:08,780 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-02-19 11:45:18,983 - Accommodation_booking_3rdparty -INFO - Hotel Book Complete
+2018-02-19 11:45:19,127 - Accommodation_booking_cancel_reservation -INFO - Test Case Started
+2018-02-19 11:45:23,610 - Accommodation_booking_cancel_reservation -INFO - Browser Opened
+2018-02-19 11:45:28,658 - Accommodation_booking_cancel_reservation -INFO - Test Case Started
+2018-02-19 11:45:32,679 - Accommodation_booking_cancel_reservation -INFO - Login Successful
+2018-02-19 11:45:32,680 - Accommodation_booking_cancel_reservation -INFO - Searching Customer
+2018-02-19 11:45:32,681 - Accommodation_booking_cancel_reservation -INFO - Navigating to customer search page
+2018-02-19 11:45:36,864 - Accommodation_booking_cancel_reservation -INFO - Navigated to customer search page
+2018-02-19 11:45:36,864 - Accommodation_booking_cancel_reservation -INFO - Selecting Customer
+2018-02-19 11:45:49,565 - Accommodation_booking_cancel_reservation -INFO - Customer Selected
+2018-02-19 11:45:49,565 - Accommodation_booking_cancel_reservation -INFO - Applying search Filters
+2018-02-19 11:46:28,076 - Accommodation_booking_cancel_reservation -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir9972_30951}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a27a6386c0f718078b0a3113bc1c4c64
+2018-02-19 11:46:28,278 - Accommodation_booking_Direct_multiroom -INFO - Test Case Started
+2018-02-19 11:46:32,696 - Accommodation_booking_Direct_multiroom -INFO - Browser Opened
+2018-02-19 11:46:39,675 - Accommodation_booking_Direct_multiroom -INFO - Test Case Started
+2018-02-19 11:46:39,738 - Accommodation_booking_Direct_multiroom -INFO - Sheet index (9) is out of range (0..0)
+2018-02-19 11:46:39,934 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-19 11:46:46,711 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-19 11:46:52,324 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-19 11:46:56,769 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-19 11:46:56,769 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-19 11:46:56,770 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-19 11:47:01,544 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-19 11:47:01,546 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-19 11:47:14,902 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-19 11:47:14,903 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-19 11:47:23,185 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-19 11:47:23,185 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-19 11:47:53,274 - Accommodation_booking_3rdparty -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='roomtype_2130554_0_0_0']
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir10408_9506}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b953179d00a9d36432daf904af864439
+2018-02-19 11:47:53,441 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2018-02-19 11:47:57,320 - Accommodation_booking_for_adults_with_children -INFO - Browser Opened
+2018-02-19 11:48:05,660 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2018-02-19 11:48:10,746 - Accommodation_booking_for_adults_with_children -INFO - Login Successful
+2018-02-19 11:48:10,747 - Accommodation_booking_for_adults_with_children -INFO - Searching Customer
+2018-02-19 11:48:10,747 - Accommodation_booking_for_adults_with_children -INFO - Navigating to customer search page
+2018-02-19 11:48:15,701 - Accommodation_booking_for_adults_with_children -INFO - Navigated to customer search page
+2018-02-19 11:48:15,702 - Accommodation_booking_for_adults_with_children -INFO - Selecting Customer
+2018-02-19 11:48:31,903 - Accommodation_booking_for_adults_with_children -INFO - Customer Selected
+2018-02-19 11:48:31,904 - Accommodation_booking_for_adults_with_children -INFO - Applying search Filters
+2018-02-19 11:49:11,516 - Accommodation_booking_for_adults_with_children -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir11524_32243}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 91dded5798b60a5ae8de2fb74e85a148
+2018-02-19 11:49:11,681 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-19 11:49:16,814 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-02-19 11:49:21,867 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-19 11:49:26,502 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-02-19 11:49:26,503 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-02-19 11:49:26,504 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-02-19 11:49:31,245 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-02-19 11:49:31,246 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-02-19 11:49:45,060 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-02-19 11:49:45,061 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-02-19 11:50:06,505 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Hotel Search Complete
+2018-02-19 11:50:06,506 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Room Type
+2018-02-19 11:50:09,294 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Room Type Selected
+2018-02-19 11:50:12,709 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Entering Passenger details
+2018-02-19 11:50:18,686 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Entered Passenger details
+2018-02-19 11:50:30,936 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Hotel Book Complete
+2018-02-19 11:50:31,059 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-19 11:50:38,434 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-02-19 11:50:47,936 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-19 11:50:53,025 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-02-19 11:50:53,025 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-02-19 11:50:53,026 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-02-19 11:50:57,815 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-02-19 11:50:57,816 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-02-19 11:51:12,233 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-02-19 11:51:12,234 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-02-19 11:51:51,173 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir10332_5109}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9cf09354b5b9bf6ab409f34a312d9fff
+2018-02-19 11:51:54,154 - Accommodation_bookingHistory -INFO - Test Case Started
+2018-02-19 11:51:59,455 - Accommodation_bookingHistory -INFO - Browser Opened
+2018-02-19 11:52:03,081 - Accommodation_bookingHistory -INFO - Test Case Started
+2018-02-19 11:52:07,731 - Accommodation_bookingHistory -INFO - Login Successful
+2018-02-19 11:52:07,732 - Accommodation_bookingHistory -INFO - Searching Customer
+2018-02-19 11:52:07,732 - Accommodation_bookingHistory -INFO - Navigating to customer search page
+2018-02-19 11:52:12,393 - Accommodation_bookingHistory -INFO - Navigated to customer search page
+2018-02-19 11:52:12,394 - Accommodation_bookingHistory -INFO - Selecting Customer
+2018-02-19 11:52:25,522 - Accommodation_bookingHistory -INFO - Customer Selected
+2018-02-19 11:52:25,523 - Accommodation_bookingHistory -INFO - Applying search Filters
+2018-02-19 11:53:01,626 - Accommodation_bookingHistory -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir10092_27814}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: d19a1c98a44f903b0b65012d03282bad
+2018-02-19 11:53:04,444 - Accommodation_search_apply_filters_for_search_results -INFO - Test Case Started
+2018-02-19 11:53:08,343 - Accommodation_search_apply_filters_for_search_results -INFO - Browser Opened
+2018-02-19 11:53:12,017 - Accommodation_search_apply_filters_for_search_results -INFO - Test Case Started
+2018-02-19 11:53:16,761 - Accommodation_search_apply_filters_for_search_results -INFO - Login Successful
+2018-02-19 11:53:16,762 - Accommodation_search_apply_filters_for_search_results -INFO - Searching Customer
+2018-02-19 11:53:16,762 - Accommodation_search_apply_filters_for_search_results -INFO - Navigating to customer search page
+2018-02-19 11:53:21,118 - Accommodation_search_apply_filters_for_search_results -INFO - Navigated to customer search page
+2018-02-19 11:53:21,119 - Accommodation_search_apply_filters_for_search_results -INFO - Selecting Customer
+2018-02-19 11:53:37,221 - Accommodation_search_apply_filters_for_search_results -INFO - Customer Selected
+2018-02-19 11:53:37,223 - Accommodation_search_apply_filters_for_search_results -INFO - Applying search Filters
+2018-02-19 11:54:15,660 - Accommodation_search_apply_filters_for_search_results -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir12564_6120}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0e2aacaa72efedb5f341ba97d73416ee
+2018-02-19 11:54:18,125 - Search_reservation_by_product_type_accommodation -INFO - Test Case Started
+2018-02-19 11:54:21,333 - Search_reservation_by_product_type_accommodation -INFO - Browser Opened
+2018-02-19 11:54:25,362 - Search_reservation_by_product_type_accommodation -INFO - Test Case Started
+2018-02-19 11:54:30,379 - Search_reservation_by_product_type_accommodation -INFO - Login Successful
+2018-02-19 11:54:30,379 - Search_reservation_by_product_type_accommodation -INFO - Searching Customer
+2018-02-19 11:54:30,380 - Search_reservation_by_product_type_accommodation -INFO - Navigating to customer search page
+2018-02-19 11:54:34,854 - Search_reservation_by_product_type_accommodation -INFO - Navigated to customer search page
+2018-02-19 11:54:34,857 - Search_reservation_by_product_type_accommodation -INFO - Selecting Customer
+2018-02-19 11:54:48,826 - Search_reservation_by_product_type_accommodation -INFO - Customer Selected
+2018-02-19 11:54:48,827 - Search_reservation_by_product_type_accommodation -INFO - Applying search Filters
+2018-02-19 11:55:27,176 - Search_reservation_by_product_type_accommodation -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir12472_18774}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 7e9f2311032725dfaa382dcf332ed59f
+2018-02-20 14:40:19,575 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-20 14:40:40,438 - Accommodation_booking_3rdparty_multiroom -INFO - Browser Opened
+2018-02-20 14:40:47,876 - Accommodation_booking_3rdparty_multiroom -INFO - Test Case Started
+2018-02-20 14:40:52,834 - Accommodation_booking_3rdparty_multiroom -INFO - Login Successful
+2018-02-20 14:40:52,835 - Accommodation_booking_3rdparty_multiroom -INFO - Searching Customer
+2018-02-20 14:40:52,835 - Accommodation_booking_3rdparty_multiroom -INFO - Navigating to customer search page
+2018-02-20 14:40:57,278 - Accommodation_booking_3rdparty_multiroom -INFO - Navigated to customer search page
+2018-02-20 14:40:57,278 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Customer
+2018-02-20 14:41:31,607 - Accommodation_booking_3rdparty_multiroom -INFO - Customer Selected
+2018-02-20 14:41:31,608 - Accommodation_booking_3rdparty_multiroom -INFO - Applying search Filters
+2018-02-20 14:41:51,365 - Accommodation_booking_3rdparty_multiroom -INFO - Hotel Search Complete
+2018-02-20 14:41:51,366 - Accommodation_booking_3rdparty_multiroom -INFO - Selecting Room Type
+2018-02-20 14:41:53,175 - Accommodation_booking_3rdparty_multiroom -INFO - Room Type 1 Selected
+2018-02-20 14:41:53,323 - Accommodation_booking_3rdparty_multiroom -INFO - Room Type 2 Selected
+2018-02-20 14:41:56,892 - Accommodation_booking_3rdparty_multiroom -INFO - Entering Passenger details
+2018-02-20 14:42:05,959 - Accommodation_booking_3rdparty_multiroom -INFO - Entered Passenger details
+2018-02-20 14:42:22,565 - Accommodation_booking_3rdparty_multiroom -INFO - Hotel Multi Room Book Complete
+2018-02-20 14:42:22,997 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-20 14:42:27,194 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-20 14:42:32,297 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-20 14:42:37,210 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-20 14:42:37,211 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-20 14:42:37,212 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-20 14:42:41,611 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-20 14:42:41,612 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-20 14:43:12,898 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-20 14:43:12,899 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-20 14:43:29,001 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-20 14:43:29,001 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-20 14:43:30,261 - Accommodation_booking_3rdparty -INFO - Room Type Selected
+2018-02-20 14:43:33,747 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-02-20 14:43:42,386 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-02-20 14:43:56,060 - Accommodation_booking_3rdparty -INFO - Hotel Book Complete
+2018-02-20 14:43:56,228 - Accommodation_booking_cancel_reservation -INFO - Test Case Started
+2018-02-20 14:44:00,924 - Accommodation_booking_cancel_reservation -INFO - Browser Opened
+2018-02-20 14:44:05,988 - Accommodation_booking_cancel_reservation -INFO - Test Case Started
+2018-02-20 14:44:16,463 - Accommodation_booking_cancel_reservation -INFO - Login Successful
+2018-02-20 14:44:16,464 - Accommodation_booking_cancel_reservation -INFO - Searching Customer
+2018-02-20 14:44:16,464 - Accommodation_booking_cancel_reservation -INFO - Navigating to customer search page
+2018-02-20 14:44:37,890 - Accommodation_booking_cancel_reservation -INFO - Navigated to customer search page
+2018-02-20 14:44:37,891 - Accommodation_booking_cancel_reservation -INFO - Selecting Customer
+2018-02-20 14:45:16,057 - Accommodation_booking_cancel_reservation -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='mainContainer']/form/div[1]/div/table/tbody/tr/td[7]/a
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir12952_28163}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bfb06b3d3dc40e35b81ac98a7e9d7809
+2018-02-20 14:45:16,385 - Accommodation_booking_Direct_multiroom -INFO - Test Case Started
+2018-02-20 14:45:20,575 - Accommodation_booking_Direct_multiroom -INFO - Browser Opened
+2018-02-20 14:45:27,713 - Accommodation_booking_Direct_multiroom -INFO - Test Case Started
+2018-02-20 14:45:37,906 - Accommodation_booking_Direct_multiroom -INFO - Login Successful
+2018-02-20 14:45:37,906 - Accommodation_booking_Direct_multiroom -INFO - Searching Customer
+2018-02-20 14:45:37,906 - Accommodation_booking_Direct_multiroom -INFO - Navigating to customer search page
+2018-02-20 14:45:59,412 - Accommodation_booking_Direct_multiroom -INFO - Navigated to customer search page
+2018-02-20 14:45:59,412 - Accommodation_booking_Direct_multiroom -INFO - Selecting Customer
+2018-02-20 14:45:59,474 - Accommodation_booking_Direct_multiroom -INFO - Sheet index (9) is out of range (0..0)
+2018-02-20 14:45:59,606 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-20 14:46:04,491 - Accommodation_booking_3rdparty -INFO - Browser Opened
+2018-02-20 14:46:08,742 - Accommodation_booking_3rdparty -INFO - Test Case Started
+2018-02-20 14:46:13,479 - Accommodation_booking_3rdparty -INFO - Login Successful
+2018-02-20 14:46:13,480 - Accommodation_booking_3rdparty -INFO - Searching Customer
+2018-02-20 14:46:13,481 - Accommodation_booking_3rdparty -INFO - Navigating to customer search page
+2018-02-20 14:46:18,023 - Accommodation_booking_3rdparty -INFO - Navigated to customer search page
+2018-02-20 14:46:18,024 - Accommodation_booking_3rdparty -INFO - Selecting Customer
+2018-02-20 14:46:43,387 - Accommodation_booking_3rdparty -INFO - Customer Selected
+2018-02-20 14:46:43,388 - Accommodation_booking_3rdparty -INFO - Applying search Filters
+2018-02-20 14:46:51,809 - Accommodation_booking_3rdparty -INFO - Hotel Search Complete
+2018-02-20 14:46:51,810 - Accommodation_booking_3rdparty -INFO - Selecting Room Type
+2018-02-20 14:46:53,080 - Accommodation_booking_3rdparty -INFO - Room Type 1 Selected
+2018-02-20 14:46:53,192 - Accommodation_booking_3rdparty -INFO - Room Type 2 Selected
+2018-02-20 14:46:56,666 - Accommodation_booking_3rdparty -INFO - Entering Passenger details
+2018-02-20 14:47:07,657 - Accommodation_booking_3rdparty -INFO - Entered Passenger details
+2018-02-20 14:47:21,447 - Accommodation_booking_3rdparty -INFO - Hotel Multi Room Book Complete
+2018-02-20 14:47:21,531 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2018-02-20 14:47:25,091 - Accommodation_booking_for_adults_with_children -INFO - Browser Opened
+2018-02-20 14:47:30,102 - Accommodation_booking_for_adults_with_children -INFO - Test Case Started
+2018-02-20 14:47:34,657 - Accommodation_booking_for_adults_with_children -INFO - Login Successful
+2018-02-20 14:47:34,657 - Accommodation_booking_for_adults_with_children -INFO - Searching Customer
+2018-02-20 14:47:34,658 - Accommodation_booking_for_adults_with_children -INFO - Navigating to customer search page
+2018-02-20 14:47:39,106 - Accommodation_booking_for_adults_with_children -INFO - Navigated to customer search page
+2018-02-20 14:47:39,106 - Accommodation_booking_for_adults_with_children -INFO - Selecting Customer
+2018-02-20 14:48:08,505 - Accommodation_booking_for_adults_with_children -INFO - Customer Selected
+2018-02-20 14:48:08,506 - Accommodation_booking_for_adults_with_children -INFO - Applying search Filters
+2018-02-20 14:48:21,317 - Accommodation_booking_for_adults_with_children -INFO - Hotel Search Complete
+2018-02-20 14:48:21,317 - Accommodation_booking_for_adults_with_children -INFO - Selecting Room Type
+2018-02-20 14:48:22,555 - Accommodation_booking_for_adults_with_children -INFO - Room Type Selected
+2018-02-20 14:48:26,034 - Accommodation_booking_for_adults_with_children -INFO - Entering Passenger details
+2018-02-20 14:48:32,096 - Accommodation_booking_for_adults_with_children -INFO - Entered Passenger details
+2018-02-20 14:48:40,317 - Accommodation_booking_for_adults_with_children -INFO - Hotel Book Complete
+2018-02-20 14:48:40,396 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-20 14:48:44,936 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-02-20 14:48:50,526 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-20 14:48:54,848 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-02-20 14:48:54,849 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-02-20 14:48:54,849 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-02-20 14:48:59,482 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-02-20 14:48:59,483 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-02-20 14:49:25,779 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-02-20 14:49:25,780 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-02-20 14:49:46,647 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Hotel Search Complete
+2018-02-20 14:49:46,647 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Selecting Room Type
+2018-02-20 14:49:49,163 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Room Type Selected
+2018-02-20 14:49:52,637 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Entering Passenger details
+2018-02-20 14:49:58,590 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Entered Passenger details
+2018-02-20 14:50:10,062 - Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -INFO - Hotel Book Complete
+2018-02-20 14:50:10,241 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-20 14:50:21,543 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Browser Opened
+2018-02-20 14:50:36,097 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Test Case Started
+2018-02-20 14:50:42,897 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Login Successful
+2018-02-20 14:50:42,898 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Searching Customer
+2018-02-20 14:50:42,898 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Navigating to customer search page
+2018-02-20 14:50:47,316 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Navigated to customer search page
+2018-02-20 14:50:47,316 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Selecting Customer
+2018-02-20 14:51:13,661 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Customer Selected
+2018-02-20 14:51:13,661 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Applying search Filters
+2018-02-20 14:51:25,583 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Hotel Search Complete
+2018-02-20 14:51:25,583 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Selecting Room Type
+2018-02-20 14:51:26,837 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Room Type Selected
+2018-02-20 14:51:30,308 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Entering Passenger details
+2018-02-20 14:51:36,361 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Entered Passenger details
+2018-02-20 14:51:44,510 - Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -INFO - Hotel Book Complete
+2018-02-20 14:51:46,847 - Accommodation_bookingHistory -INFO - Test Case Started
+2018-02-20 14:51:53,648 - Accommodation_bookingHistory -INFO - Browser Opened
+2018-02-20 14:51:56,767 - Accommodation_bookingHistory -INFO - Test Case Started
+2018-02-20 14:52:01,248 - Accommodation_bookingHistory -INFO - Login Successful
+2018-02-20 14:52:01,249 - Accommodation_bookingHistory -INFO - Searching Customer
+2018-02-20 14:52:01,249 - Accommodation_bookingHistory -INFO - Navigating to customer search page
+2018-02-20 14:52:06,038 - Accommodation_bookingHistory -INFO - Navigated to customer search page
+2018-02-20 14:52:06,039 - Accommodation_bookingHistory -INFO - Selecting Customer
+2018-02-20 14:52:40,413 - Accommodation_bookingHistory -INFO - Customer Selected
+2018-02-20 14:52:40,414 - Accommodation_bookingHistory -INFO - Applying search Filters
+2018-02-20 14:52:48,009 - Accommodation_bookingHistory -INFO - Hotel Search Complete
+2018-02-20 14:52:48,010 - Accommodation_bookingHistory -INFO - Selecting Room Type
+2018-02-20 14:52:49,216 - Accommodation_bookingHistory -INFO - Room Type Selected
+2018-02-20 14:52:52,685 - Accommodation_bookingHistory -INFO - Entering Passenger details
+2018-02-20 14:52:58,800 - Accommodation_bookingHistory -INFO - Entered Passenger details
+2018-02-20 14:53:10,506 - Accommodation_bookingHistory -INFO - Hotel Book Complete and History
+2018-02-20 14:53:12,708 - Accommodation_search_apply_filters_for_search_results -INFO - Test Case Started
+2018-02-20 14:53:16,479 - Accommodation_search_apply_filters_for_search_results -INFO - Browser Opened
+2018-02-20 14:53:19,769 - Accommodation_search_apply_filters_for_search_results -INFO - Test Case Started
+2018-02-20 14:53:24,527 - Accommodation_search_apply_filters_for_search_results -INFO - Login Successful
+2018-02-20 14:53:24,527 - Accommodation_search_apply_filters_for_search_results -INFO - Searching Customer
+2018-02-20 14:53:24,527 - Accommodation_search_apply_filters_for_search_results -INFO - Navigating to customer search page
+2018-02-20 14:53:29,280 - Accommodation_search_apply_filters_for_search_results -INFO - Navigated to customer search page
+2018-02-20 14:53:29,281 - Accommodation_search_apply_filters_for_search_results -INFO - Selecting Customer
+2018-02-20 14:53:59,464 - Accommodation_search_apply_filters_for_search_results -INFO - Customer Selected
+2018-02-20 14:53:59,465 - Accommodation_search_apply_filters_for_search_results -INFO - Applying search Filters
+2018-02-20 14:54:11,761 - Accommodation_search_apply_filters_for_search_results -INFO - Hotel Search Complete
+2018-02-20 14:54:11,885 - Search_reservation_by_product_type_accommodation -INFO - Test Case Started
+2018-02-20 14:54:15,231 - Search_reservation_by_product_type_accommodation -INFO - Browser Opened
+2018-02-20 14:54:18,557 - Search_reservation_by_product_type_accommodation -INFO - Test Case Started
+2018-02-20 14:54:22,825 - Search_reservation_by_product_type_accommodation -INFO - Login Successful
+2018-02-20 14:54:22,826 - Search_reservation_by_product_type_accommodation -INFO - Searching Customer
+2018-02-20 14:54:22,826 - Search_reservation_by_product_type_accommodation -INFO - Navigating to customer search page
+2018-02-20 14:54:27,698 - Search_reservation_by_product_type_accommodation -INFO - Navigated to customer search page
+2018-02-20 14:54:27,698 - Search_reservation_by_product_type_accommodation -INFO - Selecting Customer
+2018-02-20 14:54:54,992 - Search_reservation_by_product_type_accommodation -INFO - Customer Selected
+2018-02-20 14:54:54,992 - Search_reservation_by_product_type_accommodation -INFO - Applying search Filters
+2018-02-20 14:55:08,745 - Search_reservation_by_product_type_accommodation -INFO - Hotel Search Complete
+2018-02-20 14:55:08,746 - Search_reservation_by_product_type_accommodation -INFO - Selecting Room Type
+2018-02-20 14:55:10,550 - Search_reservation_by_product_type_accommodation -INFO - Room Type Selected
+2018-02-20 14:55:14,022 - Search_reservation_by_product_type_accommodation -INFO - Entering Passenger details
+2018-02-20 14:55:20,010 - Search_reservation_by_product_type_accommodation -INFO - Entered Passenger details
+2018-02-20 14:55:32,119 - Search_reservation_by_product_type_accommodation -INFO - Hotel Book Complete
+2018-02-20 14:55:32,120 - Search_reservation_by_product_type_accommodation -INFO - Search Accommodation Booking
+2018-02-20 14:55:38,663 - Search_reservation_by_product_type_accommodation -INFO - Search Accommodation Booking Complete
+2018-02-20 15:42:58,237 - Accommodation_booking_cancel_reservation -INFO - Test Case Started
+2018-02-20 15:43:02,668 - Accommodation_booking_cancel_reservation -INFO - Browser Opened
+2018-02-20 15:43:06,132 - Accommodation_booking_cancel_reservation -INFO - Test Case Started
+2018-02-20 15:43:10,818 - Accommodation_booking_cancel_reservation -INFO - Login Successful
+2018-02-20 15:43:10,819 - Accommodation_booking_cancel_reservation -INFO - Searching Customer
+2018-02-20 15:43:10,819 - Accommodation_booking_cancel_reservation -INFO - Navigating to customer search page
+2018-02-20 15:43:15,224 - Accommodation_booking_cancel_reservation -INFO - Navigated to customer search page
+2018-02-20 15:43:15,225 - Accommodation_booking_cancel_reservation -INFO - Selecting Customer
+2018-02-20 15:43:48,756 - Accommodation_booking_cancel_reservation -INFO - Customer Selected
+2018-02-20 15:43:48,758 - Accommodation_booking_cancel_reservation -INFO - Applying search Filters
+2018-02-20 15:43:57,436 - Accommodation_booking_cancel_reservation -INFO - chrome not reachable
+  (Session info: chrome=62.0.3202.62)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir11504_13513}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4bc75189fa40a96c5c476ecb36b99363
+2018-02-20 15:44:09,104 - Accommodation_booking_cancel_reservation -INFO - Test Case Started
+2018-02-20 15:44:12,455 - Accommodation_booking_cancel_reservation -INFO - Browser Opened
+2018-02-20 15:44:15,898 - Accommodation_booking_cancel_reservation -INFO - Test Case Started
+2018-02-20 15:44:20,275 - Accommodation_booking_cancel_reservation -INFO - Login Successful
+2018-02-20 15:44:20,276 - Accommodation_booking_cancel_reservation -INFO - Searching Customer
+2018-02-20 15:44:20,277 - Accommodation_booking_cancel_reservation -INFO - Navigating to customer search page
+2018-02-20 15:44:25,124 - Accommodation_booking_cancel_reservation -INFO - Navigated to customer search page
+2018-02-20 15:44:25,125 - Accommodation_booking_cancel_reservation -INFO - Selecting Customer
+2018-02-20 15:44:58,548 - Accommodation_booking_cancel_reservation -INFO - Customer Selected
+2018-02-20 15:44:58,550 - Accommodation_booking_cancel_reservation -INFO - Applying search Filters
+2018-02-20 15:45:36,869 - Accommodation_booking_cancel_reservation -INFO - Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='searchResults']/div[3]/h4
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir9592_12167}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 929844c04840fd8931eaed87129bcedd
+2018-02-20 15:45:37,308 - Accommodation_booking_Direct_multiroom -INFO - Test Case Started
+2018-02-20 15:45:41,121 - Accommodation_booking_Direct_multiroom -INFO - Browser Opened
+2018-02-20 15:45:44,950 - Accommodation_booking_Direct_multiroom -INFO - Test Case Started
+2018-02-20 15:45:49,443 - Accommodation_booking_Direct_multiroom -INFO - Login Successful
+2018-02-20 15:45:49,443 - Accommodation_booking_Direct_multiroom -INFO - Searching Customer
+2018-02-20 15:45:49,444 - Accommodation_booking_Direct_multiroom -INFO - Navigating to customer search page
+2018-02-20 15:45:53,625 - Accommodation_booking_Direct_multiroom -INFO - Navigated to customer search page
+2018-02-20 15:45:53,627 - Accommodation_booking_Direct_multiroom -INFO - Selecting Customer
