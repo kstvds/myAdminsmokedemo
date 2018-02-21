@@ -69,10 +69,10 @@ public class Accommodation_booking_cancel_reservation {
 				test.log(LogStatus.INFO, "Starting Login");
 				WebElement username = driverqa.findElement(LoginPage.uname);
 				username.clear();
-				username.sendKeys(excel.getData(2, 1, 0));
+				username.sendKeys(excel.getData(0, 1, 0));
 				WebElement password = driverqa.findElement(LoginPage.pwd);
 				password.clear();
-				password.sendKeys(excel.getData(2, 1, 1));
+				password.sendKeys(excel.getData(0, 1, 1));
 				driverqa.findElement(LoginPage.submit).click();
 				Thread.sleep(1000);
 				String expectedtitle = "DOTWconnect.com::DOTWconnect.com: My Admin";
@@ -117,7 +117,7 @@ public class Accommodation_booking_cancel_reservation {
 		     test.log(LogStatus.INFO, "Selecting Customer");
 			 try {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-				 driverqa.findElement(Operations.company).sendKeys(excel.getData(2, 4, 0));
+				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 				 Thread.sleep(1000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
@@ -148,15 +148,15 @@ public class Accommodation_booking_cancel_reservation {
 			 try{
 				 test.log(LogStatus.INFO, "Starting HotelSearch");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
-				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(2, 7, 0));
-				 Thread.sleep(2000);
+				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 12, 1));
+				 Thread.sleep(4000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
-				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(2, 10, 0));
+				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 12, 2));
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
-				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(2, 10, 1));
-				 String expected=excel.getData(2, 7, 0);
+				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 12, 2));
+				 String expected=excel.getData(0, 12, 1);
 				 Select noofchild = new Select(driverqa.findElement(NewAccoBooking.child));
 				 noofchild.selectByIndex(1);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.childage));
@@ -197,9 +197,9 @@ public class Accommodation_booking_cancel_reservation {
 				 Thread.sleep(2000);
 				 logger.info("Entering Passenger details");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.paxFname));
-				 driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(2, 14, 0));
+				 driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(0, 20, 1));
 				 Thread.sleep(2000);
-				 driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(2, 14, 1));
+				 driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 20, 2));
 				 Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
 				 passengertitle.selectByIndex(1);
 				 driverqa.findElement(NewAccoBooking.acceptChkBX).click();
@@ -211,7 +211,7 @@ public class Accommodation_booking_cancel_reservation {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_cancel_reservation/Confirm-Booking.jpg");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.confirmBook));
 				 driverqa.findElement(NewAccoBooking.confirmBook).click();
-				 logger.info("Entering Payment Details");
+				/* logger.info("Entering Payment Details");
 				 test.log(LogStatus.INFO, "Entering Payment Details");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentPage.ccType));
 				 Select paymentmode = new Select(driverqa.findElement(PaymentPage.ccType));
@@ -227,13 +227,14 @@ public class Accommodation_booking_cancel_reservation {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_cancel_reservation/Card-Details.jpg");
 				 driverqa.findElement(PaymentPage.confirmPayment).click();
 				 logger.info("Completed Payment Details");
-				 test.log(LogStatus.PASS, "Completed Payment Details");
+				 test.log(LogStatus.PASS, "Completed Payment Details");*/
 				 Thread.sleep(2000);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentPage.confirmationStatus));
 				 String actualbookingstatus= driverqa.findElement(PaymentPage.confirmationStatus).getText();
-				 String expectedbookingstatus="Confirmed";
+				 String expectedbookingstatus1="Confirmed";
+				 String expectedbookingstatus2="On Request";
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_cancel_reservation/After-booking.jpg");
-				 Assert.assertTrue(actualbookingstatus.contains(expectedbookingstatus));
+				 Assert.assertTrue(actualbookingstatus.contains(expectedbookingstatus1)||actualbookingstatus.contains(expectedbookingstatus2));
 				 test.log(LogStatus.INFO, "Ending HotelBook");
 				 test.log(LogStatus.PASS, "PASSED HotelBook");
 				 logger.info("Hotel Book Complete");
@@ -280,7 +281,7 @@ public class Accommodation_booking_cancel_reservation {
 			if (result.getStatus() == ITestResult.FAILURE) {
 				test.log(LogStatus.FAIL, result.getThrowable());
 			}
-			//rep.endTest(test);
+			rep.endTest(test);
 		}
 
 		@AfterTest
@@ -288,6 +289,6 @@ public class Accommodation_booking_cancel_reservation {
 
 			rep.endTest(test);
 			rep.flush();
-			driverqa.close();
+			//driverqa.close();
 		}
 	 }

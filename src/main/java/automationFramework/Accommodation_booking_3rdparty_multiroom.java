@@ -56,7 +56,7 @@ public class Accommodation_booking_3rdparty_multiroom {
 	@Parameters({ "browsername" })
 	public void bookthirdpartymultiroom(String browsername) throws Exception {
 		test = rep.startTest("bookthirdpartymultiroom");
-		System.out.println("1");
+		
 		ExcelDataConfig excel = new ExcelDataConfig(Config.getExcelPath());
 
 		PropertyConfigurator.configure("Log4j.properties");
@@ -130,7 +130,7 @@ public class Accommodation_booking_3rdparty_multiroom {
 		test.log(LogStatus.INFO, "Selecting Customer");
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-			driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 0));
+			driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 			Thread.sleep(1000);
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();
@@ -161,7 +161,7 @@ public class Accommodation_booking_3rdparty_multiroom {
 			test.log(LogStatus.INFO, "Starting HotelSearch");
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
 			driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 15, 1));
-			Thread.sleep(3000);
+			Thread.sleep(4000);
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();
 			driverqa.findElement(NewAccoBooking.inDate).clear();
@@ -195,8 +195,10 @@ public class Accommodation_booking_3rdparty_multiroom {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.bookChannel));
 			obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_3rdparty_multiroom/Search-Hotel-filters.jpg");
 			driverqa.findElement(NewAccoBooking.bookChannel).click();
+			Thread.sleep(3000);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.thirdPartyChannel));
 			driverqa.findElement(NewAccoBooking.thirdPartyChannel).click();
+			Thread.sleep(3000);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.searchButton));
 			driverqa.findElement(NewAccoBooking.searchButton).click();
 			wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.resultHotel));
@@ -320,6 +322,6 @@ public class Accommodation_booking_3rdparty_multiroom {
 
 		rep.endTest(test);
 		rep.flush();
-		driverqa.close();
+	//	driverqa.close();
 	}
 }

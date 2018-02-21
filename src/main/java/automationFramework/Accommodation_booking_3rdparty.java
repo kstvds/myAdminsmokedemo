@@ -170,15 +170,15 @@ public class Accommodation_booking_3rdparty {
 			 try{
 				 test.log(LogStatus.INFO, "Starting HotelSearch");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
-				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 15, 1));
+				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 11, 1));
 				 Thread.sleep(4000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
-				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 15, 2));
+				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 11, 2));
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
-				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 15, 3));
-				 String expected=excel.getData(0, 15, 1);
+				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 11, 3));
+				 String expected=excel.getData(0, 11, 1);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_3rdparty/Search-Hotel-filters.jpg");
 				 driverqa.findElement(NewAccoBooking.bookChannel).click();
 				 Thread.sleep(3000);
@@ -222,13 +222,13 @@ public class Accommodation_booking_3rdparty {
 				 driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(0, 20, 1));
 				 Thread.sleep(2000);
 				 driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 20, 2));
-				 Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
-				 passengertitle.selectByIndex(1);
-				 /*driverqa.findElement(NewAccoBooking.paxFname).sendKeys(excel.getData(0, 20, 1));
+				 Select passengertitle1 = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
+				 passengertitle1.selectByIndex(1);
+				 driverqa.findElement(NewAccoBooking.paxFname2).sendKeys(excel.getData(0, 21, 1));
 				 Thread.sleep(2000);
-				 driverqa.findElement(NewAccoBooking.paxLname).sendKeys(excel.getData(0, 20, 2));
-				 Select passengertitle = new Select(driverqa.findElement(NewAccoBooking.paxtitle));
-				 passengertitle.selectByIndex(1);*/
+				 driverqa.findElement(NewAccoBooking.paxLname2).sendKeys(excel.getData(0, 21, 2));
+				 Select passengertitle2 = new Select(driverqa.findElement(NewAccoBooking.paxtitle2));
+				 passengertitle2.selectByIndex(1);
 				 driverqa.findElement(NewAccoBooking.acceptChkBX).click();
 				 Thread.sleep(3000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_3rdparty/Passenger_Details.jpg");
@@ -236,11 +236,9 @@ public class Accommodation_booking_3rdparty {
 				 logger.info("Entered Passenger details");
 				 Thread.sleep(4000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_3rdparty/Confirm-Booking.jpg");
-				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.confirmBook));
-				 driverqa.findElement(NewAccoBooking.confirmBook).click();
-				 logger.info("Entering Payment Details");
-				 test.log(LogStatus.INFO, "Entering Payment Details");
-				/* wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentPage.ccType));
+				 /* wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.confirmBook));
+				
+				 wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentPage.ccType));
 				 Select paymentmode = new Select(driverqa.findElement(PaymentPage.ccType));
 				 paymentmode.selectByIndex(1);
 				 driverqa.findElement(PaymentPage.ccNum).sendKeys(excel.getData(4, 18, 0));
@@ -294,6 +292,6 @@ public class Accommodation_booking_3rdparty {
 
 		rep.endTest(test);
 		rep.flush();
-		driverqa.close();
+		//driverqa.close();
 	}
  }

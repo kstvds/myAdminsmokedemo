@@ -129,7 +129,7 @@ public class Accommodation_booking_for_adults_with_children {
 		     test.log(LogStatus.INFO, "Selecting Customer");
 			 try {
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.company));
-				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 6, 1));
+				 driverqa.findElement(Operations.company).sendKeys(excel.getData(0, 4, 1));
 				 Thread.sleep(1000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
@@ -161,7 +161,7 @@ public class Accommodation_booking_for_adults_with_children {
 				 test.log(LogStatus.INFO, "Starting HotelSearch");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
 				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 12, 1));
-				 Thread.sleep(3000);
+				 Thread.sleep(4000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
@@ -223,9 +223,9 @@ public class Accommodation_booking_for_adults_with_children {
 				 logger.info("Entered Passenger details");
 				 Thread.sleep(4000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_for_adults_with_children/Confirm-Booking.jpg");
-				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.confirmBook));
+		/*		 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.confirmBook));
 				 driverqa.findElement(NewAccoBooking.confirmBook).click();
-				 logger.info("Entering Payment Details");
+		         logger.info("Entering Payment Details");
 				 test.log(LogStatus.INFO, "Entering Payment Details");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentPage.ccType));
 				 Select paymentmode = new Select(driverqa.findElement(PaymentPage.ccType));
@@ -241,7 +241,7 @@ public class Accommodation_booking_for_adults_with_children {
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_for_adults_with_children/Card-Details.jpg");
 				 driverqa.findElement(PaymentPage.confirmPayment).click();
 				 logger.info("Completed Payment Details");
-				 test.log(LogStatus.PASS, "Completed Payment Details");
+				 test.log(LogStatus.PASS, "Completed Payment Details");*/
 				 Thread.sleep(3000);
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentPage.confirmationStatus));
 				 String actualbookingstatus= driverqa.findElement(PaymentPage.confirmationStatus).getText();
@@ -276,6 +276,6 @@ public class Accommodation_booking_for_adults_with_children {
 
 		rep.endTest(test);
 		rep.flush();
-		driverqa.close();
+		//driverqa.close();
 	}
  }
