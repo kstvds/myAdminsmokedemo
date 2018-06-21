@@ -171,13 +171,16 @@ public class Accommodation_booking_3rdparty {
 				 test.log(LogStatus.INFO, "Starting HotelSearch");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
 				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 11, 1));
-				 Thread.sleep(4000);
+				 Thread.sleep(5000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
+				 
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
 				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 11, 2));
+				 Thread.sleep(3000);
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
 				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 11, 3));
+				 Thread.sleep(3000);
 				 String expected=excel.getData(0, 11, 1);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_3rdparty/Search-Hotel-filters.jpg");
 				 driverqa.findElement(NewAccoBooking.bookChannel).click();

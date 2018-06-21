@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="11" passed="9">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="919898" started-at="2018-02-20T09:10:18Z" finished-at="2018-02-20T09:25:38Z">
+  <suite name="Suite" duration-ms="63289" started-at="2018-06-20T14:32:29Z" finished-at="2018-06-20T14:33:32Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="124084" started-at="2018-02-20T09:10:18Z" finished-at="2018-02-20T09:12:22Z">
-      <class name="automationFramework.Accommodation_booking_3rdparty_multiroom">
-        <test-method status="PASS" signature="bookthirdpartymultiroom(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_3rdparty_multiroom@42f93a98]" name="bookthirdpartymultiroom" duration-ms="123755" started-at="2018-02-20T14:40:18Z" finished-at="2018-02-20T14:42:22Z">
+    <test name="Test17" duration-ms="63289" started-at="2018-06-20T14:32:29Z" finished-at="2018-06-20T14:33:32Z">
+      <class name="Tour.Tour_search_apply_filters">
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:Tour.Tour_search_apply_filters@3234e239]" name="login" duration-ms="26299" started-at="2018-06-20T20:02:29Z" finished-at="2018-06-20T20:02:55Z">
           <params>
             <param index="0">
               <value>
@@ -17,407 +17,38 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bookthirdpartymultiroom -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_booking_3rdparty_multiroom@42f93a98]" name="getResult" is-config="true" duration-ms="2" started-at="2018-02-20T14:42:22Z" finished-at="2018-02-20T14:42:22Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tour.Tour_search_apply_filters@3234e239]" name="getResult" is-config="true" duration-ms="4" started-at="2018-06-20T20:02:55Z" finished-at="2018-06-20T20:02:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=bookthirdpartymultiroom status=SUCCESS method=Accommodation_booking_3rdparty_multiroom.bookthirdpartymultiroom(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_3rdparty_multiroom@42f93a98] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Tour_search_apply_filters.login(java.lang.String)[pri:0, instance:Tour.Tour_search_apply_filters@3234e239] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_booking_3rdparty_multiroom@42f93a98]" name="afterTest" is-config="true" duration-ms="305" started-at="2018-02-20T14:42:22Z" finished-at="2018-02-20T14:42:22Z">
+        <test-method status="PASS" signature="searchtour()[pri:0, instance:Tour.Tour_search_apply_filters@3234e239]" name="searchtour" duration-ms="36926" started-at="2018-06-20T20:02:55Z" depends-on-methods="Tour.Tour_search_apply_filters.login" finished-at="2018-06-20T20:03:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_booking_3rdparty_multiroom -->
-    </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="93224" started-at="2018-02-20T09:12:22Z" finished-at="2018-02-20T09:13:56Z">
-      <class name="automationFramework.Accommodation_booking_3rdparty">
-        <test-method status="PASS" signature="bookthirdparty(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_3rdparty@4923ab24]" name="bookthirdparty" duration-ms="93134" started-at="2018-02-20T14:42:22Z" finished-at="2018-02-20T14:43:56Z">
+        </test-method> <!-- searchtour -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tour.Tour_search_apply_filters@3234e239]" name="getResult" is-config="true" duration-ms="1" started-at="2018-06-20T20:03:32Z" finished-at="2018-06-20T20:03:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookthirdparty -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_booking_3rdparty@4923ab24]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-20T14:43:56Z" finished-at="2018-02-20T14:43:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=bookthirdparty status=SUCCESS method=Accommodation_booking_3rdparty.bookthirdparty(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_3rdparty@4923ab24] output={null}]]]>
+                <![CDATA[[TestResult name=searchtour status=SUCCESS method=Tour_search_apply_filters.searchtour()[pri:0, instance:Tour.Tour_search_apply_filters@3234e239] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_booking_3rdparty@4923ab24]" name="afterTest" is-config="true" duration-ms="88" started-at="2018-02-20T14:43:56Z" finished-at="2018-02-20T14:43:56Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Tour.Tour_search_apply_filters@3234e239]" name="afterTest" is-config="true" duration-ms="43" started-at="2018-06-20T20:03:32Z" finished-at="2018-06-20T20:03:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_booking_3rdparty -->
-    </test> <!-- Test3 -->
-    <test name="Test4" duration-ms="80072" started-at="2018-02-20T09:13:56Z" finished-at="2018-02-20T09:15:16Z">
-      <class name="automationFramework.Accommodation_booking_cancel_reservation">
-        <test-method status="FAIL" signature="cancel(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_cancel_reservation@5ed828d]" name="cancel" duration-ms="79953" started-at="2018-02-20T14:43:56Z" finished-at="2018-02-20T14:45:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='mainContainer']/form/div[1]/div/table/tbody/tr/td[7]/a
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir12952_28163}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bfb06b3d3dc40e35b81ac98a7e9d7809 expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Timed out after 30 seconds waiting for visibility of element located by By.xpath: //*[@id='mainContainer']/form/div[1]/div/table/tbody/tr/td[7]/a
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'PC329535', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\479738\AppData\Local\Temp\scoped_dir12952_28163}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.62, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: bfb06b3d3dc40e35b81ac98a7e9d7809 expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at automationFramework.Accommodation_booking_cancel_reservation.cancel(Accommodation_booking_cancel_reservation.java:144)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cancel -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_booking_cancel_reservation@5ed828d]" name="getResult" is-config="true" duration-ms="2" started-at="2018-02-20T14:45:16Z" finished-at="2018-02-20T14:45:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=cancel status=FAILURE method=Accommodation_booking_cancel_reservation.cancel(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_cancel_reservation@5ed828d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_booking_cancel_reservation@5ed828d]" name="afterTest" is-config="true" duration-ms="42" started-at="2018-02-20T14:45:16Z" finished-at="2018-02-20T14:45:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_booking_cancel_reservation -->
-    </test> <!-- Test4 -->
-    <test name="Test5" duration-ms="43205" started-at="2018-02-20T09:15:16Z" finished-at="2018-02-20T09:15:59Z">
-      <class name="automationFramework.Accommodation_booking_Direct_multiroom">
-        <test-method status="FAIL" signature="bookDIRECTmultiroom(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_Direct_multiroom@63440df3]" name="bookDIRECTmultiroom" duration-ms="43175" started-at="2018-02-20T14:45:16Z" finished-at="2018-02-20T14:45:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Sheet index (9) is out of range (0..0) expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Sheet index (9) is out of range (0..0) expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at automationFramework.Accommodation_booking_Direct_multiroom.bookDIRECTmultiroom(Accommodation_booking_Direct_multiroom.java:157)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookDIRECTmultiroom -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_booking_Direct_multiroom@63440df3]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-20T14:45:59Z" finished-at="2018-02-20T14:45:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=bookDIRECTmultiroom status=FAILURE method=Accommodation_booking_Direct_multiroom.bookDIRECTmultiroom(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_Direct_multiroom@63440df3] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_booking_Direct_multiroom@63440df3]" name="afterTest" is-config="true" duration-ms="26" started-at="2018-02-20T14:45:59Z" finished-at="2018-02-20T14:45:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_booking_Direct_multiroom -->
-    </test> <!-- Test5 -->
-    <test name="Test6" duration-ms="81918" started-at="2018-02-20T09:15:59Z" finished-at="2018-02-20T09:17:21Z">
-      <class name="automationFramework.Accommodation_booking_dotwRates_multiroom">
-        <test-method status="PASS" signature="bookdotwmultiroom(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_dotwRates_multiroom@eafc191]" name="bookdotwmultiroom" duration-ms="81888" started-at="2018-02-20T14:45:59Z" finished-at="2018-02-20T14:47:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookdotwmultiroom -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_booking_dotwRates_multiroom@eafc191]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-20T14:47:21Z" finished-at="2018-02-20T14:47:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=bookdotwmultiroom status=SUCCESS method=Accommodation_booking_dotwRates_multiroom.bookdotwmultiroom(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_dotwRates_multiroom@eafc191] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_booking_dotwRates_multiroom@eafc191]" name="afterTest" is-config="true" duration-ms="28" started-at="2018-02-20T14:47:21Z" finished-at="2018-02-20T14:47:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_booking_dotwRates_multiroom -->
-    </test> <!-- Test6 -->
-    <test name="Test7" duration-ms="78848" started-at="2018-02-20T09:17:21Z" finished-at="2018-02-20T09:18:40Z">
-      <class name="automationFramework.Accommodation_booking_for_adults_with_children">
-        <test-method status="PASS" signature="book(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_for_adults_with_children@74ad1f1f]" name="book" duration-ms="78821" started-at="2018-02-20T14:47:21Z" finished-at="2018-02-20T14:48:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- book -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_booking_for_adults_with_children@74ad1f1f]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-20T14:48:40Z" finished-at="2018-02-20T14:48:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=book status=SUCCESS method=Accommodation_booking_for_adults_with_children.book(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_for_adults_with_children@74ad1f1f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_booking_for_adults_with_children@74ad1f1f]" name="afterTest" is-config="true" duration-ms="25" started-at="2018-02-20T14:48:40Z" finished-at="2018-02-20T14:48:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_booking_for_adults_with_children -->
-    </test> <!-- Test7 -->
-    <test name="Test8" duration-ms="89730" started-at="2018-02-20T09:18:40Z" finished-at="2018-02-20T09:20:10Z">
-      <class name="automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room">
-        <test-method status="PASS" signature="bookdirect(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room@37374a5e]" name="bookdirect" duration-ms="89704" started-at="2018-02-20T14:48:40Z" finished-at="2018-02-20T14:50:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookdirect -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room@37374a5e]" name="afterTest" is-config="true" duration-ms="24" started-at="2018-02-20T14:50:10Z" finished-at="2018-02-20T14:50:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room@37374a5e]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-20T14:50:10Z" finished-at="2018-02-20T14:50:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=bookdirect status=SUCCESS method=Accommodation_booking_for_Direct_rate_outside_cancellation_one_room.bookdirect(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room@37374a5e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room -->
-    </test> <!-- Test8 -->
-    <test name="Test9" duration-ms="96563" started-at="2018-02-20T09:20:10Z" finished-at="2018-02-20T09:21:46Z">
-      <class name="automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room">
-        <test-method status="PASS" signature="bookdotw(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room@33723e30]" name="bookdotw" duration-ms="94391" started-at="2018-02-20T14:50:10Z" finished-at="2018-02-20T14:51:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookdotw -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room@33723e30]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-20T14:51:44Z" finished-at="2018-02-20T14:51:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=bookdotw status=SUCCESS method=Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room.bookdotw(java.lang.String)[pri:0, instance:automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room@33723e30] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room@33723e30]" name="afterTest" is-config="true" duration-ms="2170" started-at="2018-02-20T14:51:44Z" finished-at="2018-02-20T14:51:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room -->
-    </test> <!-- Test9 -->
-    <test name="Test10" duration-ms="85938" started-at="2018-02-20T09:21:46Z" finished-at="2018-02-20T09:23:12Z">
-      <class name="automationFramework.Accommodation_bookingHistory">
-        <test-method status="PASS" signature="bookinghistory(java.lang.String)[pri:0, instance:automationFramework.Accommodation_bookingHistory@23fe1d71]" name="bookinghistory" duration-ms="83783" started-at="2018-02-20T14:51:46Z" finished-at="2018-02-20T14:53:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookinghistory -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_bookingHistory@23fe1d71]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-20T14:53:10Z" finished-at="2018-02-20T14:53:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=bookinghistory status=SUCCESS method=Accommodation_bookingHistory.bookinghistory(java.lang.String)[pri:0, instance:automationFramework.Accommodation_bookingHistory@23fe1d71] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_bookingHistory@23fe1d71]" name="afterTest" is-config="true" duration-ms="2144" started-at="2018-02-20T14:53:10Z" finished-at="2018-02-20T14:53:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_bookingHistory -->
-    </test> <!-- Test10 -->
-    <test name="Test11" duration-ms="59162" started-at="2018-02-20T09:23:12Z" finished-at="2018-02-20T09:24:11Z">
-      <class name="automationFramework.Accommodation_search_apply_filters_for_search_results">
-        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@7403c468]" name="search" duration-ms="59080" started-at="2018-02-20T14:53:12Z" finished-at="2018-02-20T14:54:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@7403c468]" name="getResult" is-config="true" duration-ms="1" started-at="2018-02-20T14:54:11Z" finished-at="2018-02-20T14:54:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=search status=SUCCESS method=Accommodation_search_apply_filters_for_search_results.search(java.lang.String)[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@7403c468] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Accommodation_search_apply_filters_for_search_results@7403c468]" name="afterTest" is-config="true" duration-ms="80" started-at="2018-02-20T14:54:11Z" finished-at="2018-02-20T14:54:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Accommodation_search_apply_filters_for_search_results -->
-    </test> <!-- Test11 -->
-    <test name="Test12" duration-ms="86836" started-at="2018-02-20T09:24:11Z" finished-at="2018-02-20T09:25:38Z">
-      <class name="automationFramework.Search_reservation_by_product_type_accommodation">
-        <test-method status="PASS" signature="searchaccombook(java.lang.String)[pri:0, instance:automationFramework.Search_reservation_by_product_type_accommodation@17d0685f]" name="searchaccombook" duration-ms="86810" started-at="2018-02-20T14:54:11Z" finished-at="2018-02-20T14:55:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchaccombook -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationFramework.Search_reservation_by_product_type_accommodation@17d0685f]" name="getResult" is-config="true" duration-ms="0" started-at="2018-02-20T14:55:38Z" finished-at="2018-02-20T14:55:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchaccombook status=SUCCESS method=Search_reservation_by_product_type_accommodation.searchaccombook(java.lang.String)[pri:0, instance:automationFramework.Search_reservation_by_product_type_accommodation@17d0685f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Search_reservation_by_product_type_accommodation@17d0685f]" name="afterTest" is-config="true" duration-ms="24" started-at="2018-02-20T14:55:38Z" finished-at="2018-02-20T14:55:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- automationFramework.Search_reservation_by_product_type_accommodation -->
-    </test> <!-- Test12 -->
+      </class> <!-- Tour.Tour_search_apply_filters -->
+    </test> <!-- Test17 -->
   </suite> <!-- Suite -->
 </testng-results>

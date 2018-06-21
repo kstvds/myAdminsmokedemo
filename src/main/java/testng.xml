@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="none">
- <!-- <test name="Test2">
-	<parameter name="browsername" value="CH"/>
+ <!--  <test name="Test2">
+ 	<parameter name="browsername" value="CH"/>
 		<classes>
 			<class
-				name="automationFramework.Accommodation_booking_3rdparty_multiroom" />
+				name="automationFramework.Accommodation_booking_3rdparty_multiroom" />need to check cannot click drop down
 		</classes>
-	</test>
-	 <test name="Test3">
+	</test>   -->
+	 <!--    <test name="Test3">
 	<parameter name="browsername" value="CH"/>
 		<classes>
 			<class
 				name="automationFramework.Accommodation_booking_3rdparty" />
 		</classes>
-	</test> -->
-	 <test name="Test4">
+	</test>   -->
+	<!--   <test name="Test4">
 	<parameter name="browsername" value="CH"/>
 		<classes>
 			<class
 				name="automationFramework.Accommodation_booking_cancel_reservation" />
 		</classes>
-	</test>
-	 <test name="Test5">
+	</test>  -->
+	<!--  <test name="Test5">
 	<parameter name="browsername" value="CH"/>
 		<classes>
 			<class
 				name="automationFramework.Accommodation_booking_Direct_multiroom" />
 		</classes>
 	</test>
-	<!--  <test name="Test6">
+  <test name="Test6">
 	<parameter name="browsername" value="CH"/>
 		<classes>
 			<class
 				name="automationFramework.Accommodation_booking_dotwRates_multiroom" />
 		</classes>
-	</test>
+	</test> 
 	 <test name="Test7">
 	<parameter name="browsername" value="CH"/>
 		<classes>
@@ -49,13 +49,13 @@
 				name="automationFramework.Accommodation_booking_for_Direct_rate_outside_cancellation_one_room" />
 		</classes>
 	</test>
-	 <test name="Test9">
+	  <test name="Test9">
 	<parameter name="browsername" value="CH"/>
 		<classes>
 			<class
 				name="automationFramework.Accommodation_booking_for_DOTW_rate_outside_cancellation_one_room" />
 		</classes>
-	</test>
+	</test>  
 	 <test name="Test10">
 	<parameter name="browsername" value="CH"/>
 		<classes>
@@ -69,13 +69,48 @@
 			<class
 				name="automationFramework.Accommodation_search_apply_filters_for_search_results" />
 		</classes>
-	</test>
-	<test name="Test12">
+	</test>-->
+	<!-- <test name="Test12">
 	<parameter name="browsername" value="CH"/>
 		<classes>
 			<class
 				name="automationFramework.Search_reservation_by_product_type_accommodation" />
 		</classes>
-	</test> -->
+	</test>   -->  
+	 <!--  <test name="Test13">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="Transfer.Transfer_Search_Apply_Filters_For_Search_Results" />
+		</classes>
+	</test>    -->
+	<!--  <test name="Test14">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="Transfer.Transfer_Booking_Transfertype_Private" />
+		</classes>
+	</test>  
+	<test name="Test15">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="Transfer.Transfer_Booking_Transfertype_Scheduled" />
+		</classes>
+	</test>  
+	<test name="Test16">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="Transfer.View_Reservationof_ServiceType_Transfer" />
+		</classes>
+		</test>-->
+		<!-- <test name="Test17">
+	<parameter name="browsername" value="CH"/>
+		<classes>
+			<class
+				name="Tour.Tour_search_apply_filters" />
+		</classes>
+	</test>  --> 
 </suite> 
 

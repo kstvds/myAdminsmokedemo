@@ -132,7 +132,7 @@ public class Accommodation_amend {
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();*/
 			driver.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 2, 8));
-			Thread.sleep(4000);
+			Thread.sleep(5000);
 			action.sendKeys(Keys.ARROW_DOWN).build().perform();
 			action.sendKeys(Keys.ENTER).build().perform();
 

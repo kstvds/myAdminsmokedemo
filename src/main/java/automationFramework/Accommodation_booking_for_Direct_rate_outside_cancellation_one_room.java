@@ -148,13 +148,15 @@ public class Accommodation_booking_for_Direct_rate_outside_cancellation_one_room
 				 test.log(LogStatus.INFO, "Starting HotelSearch");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
 				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 13, 1));
-				 Thread.sleep(4000);
+				 Thread.sleep(5000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
 				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 13, 2));
+				 Thread.sleep(3000);
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
 				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 13, 3));
+				 Thread.sleep(3000);
 				 String expected=excel.getData(0, 13, 1);
 				 Thread.sleep(3000);
 				 driverqa.findElement(NewAccoBooking.bookChannel).click();

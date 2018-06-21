@@ -126,8 +126,8 @@ public class Accommodation_booking_cancel_reservation {
 				 Thread.sleep(2000);
 				 
 				obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_cancel_reservation/Customer-list.jpg");
-				wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCustbook));
-				driverqa.findElement(Operations.chooseCustbook).click();
+				wait.until(ExpectedConditions.visibilityOfElementLocated(Operations.chooseCust));
+				driverqa.findElement(Operations.chooseCust).click();
 				Thread.sleep(1000);
 				String searchpageactualtitle = driverqa.getTitle();
 				String searchpageexpectedtitle = "DOTWconnect.com::";
@@ -149,13 +149,15 @@ public class Accommodation_booking_cancel_reservation {
 				 test.log(LogStatus.INFO, "Starting HotelSearch");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.AccomUnit));
 				 driverqa.findElement(NewAccoBooking.AccomUnit).sendKeys(excel.getData(0, 12, 1));
-				 Thread.sleep(4000);
+				 Thread.sleep(5000);
 				 action.sendKeys(Keys.ARROW_DOWN).build().perform();
 				 action.sendKeys(Keys.ENTER).build().perform();
 				 driverqa.findElement(NewAccoBooking.inDate).clear();
 				 driverqa.findElement(NewAccoBooking.inDate).sendKeys(excel.getData(0, 12, 2));
+				 Thread.sleep(4000);
 				 driverqa.findElement(NewAccoBooking.outDate).clear();
-				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 12, 2));
+				 driverqa.findElement(NewAccoBooking.outDate).sendKeys(excel.getData(0, 12, 3));
+				 Thread.sleep(4000);
 				 String expected=excel.getData(0, 12, 1);
 				 Select noofchild = new Select(driverqa.findElement(NewAccoBooking.child));
 				 noofchild.selectByIndex(1);
@@ -209,8 +211,8 @@ public class Accommodation_booking_cancel_reservation {
 				 logger.info("Entered Passenger details");
 				 Thread.sleep(4000);
 				 obj.Takesnap(driverqa, Config.SnapShotPath() + "/Accommodation_booking_cancel_reservation/Confirm-Booking.jpg");
-				 wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.confirmBook));
-				 driverqa.findElement(NewAccoBooking.confirmBook).click();
+				/* wait.until(ExpectedConditions.visibilityOfElementLocated(NewAccoBooking.confirmBook));
+				 driverqa.findElement(NewAccoBooking.confirmBook).click();*/
 				/* logger.info("Entering Payment Details");
 				 test.log(LogStatus.INFO, "Entering Payment Details");
 				 wait.until(ExpectedConditions.visibilityOfElementLocated(PaymentPage.ccType));

@@ -1,7 +1,7 @@
 ChromeDriver = D:\\chromedriver.exe
 IEDriver = D:\\IEDriverServer.exe
-URL = https://stage.aws.dotw.com/_myadmin/login
-URL1= https://stage.aws.dotw.com
+URL = https://ctssuppliers2.stage.aws.dotw.com/_myadmin/login
+URL1= https://ctssuppliers2.stage.aws.dotw.com/_myadmin/login
 ExcelPath = D:\\Test Repository\\TestData-Latest.xlsx
 ScreenShot=D:/Test Repository/Test Screenshots
 ReportPath=D:\\Test Repository\\Report\\Report.html

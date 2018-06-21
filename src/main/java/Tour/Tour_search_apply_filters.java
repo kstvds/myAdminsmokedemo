@@ -213,7 +213,7 @@ public class Tour_search_apply_filters {
 
 		rep.endTest(test);
 		rep.flush();
-		driverqa.close();
+		//driverqa.close();
 	}
 }
 	
